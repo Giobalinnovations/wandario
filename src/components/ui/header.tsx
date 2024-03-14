@@ -11,7 +11,8 @@ const navigation = [
 export default function Header() {
   return (
     <header className="absolute inset-x-0 top-0 z-50">
-      <nav
+      header
+      {/* <nav
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
@@ -98,7 +99,7 @@ export default function Header() {
             </div>
           </div>
         </Dialog.Panel>
-      </Dialog>
+      </Dialog> */}
     </header>
   );
 }
