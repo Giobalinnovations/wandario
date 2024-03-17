@@ -1,3 +1,4 @@
+import { Button } from './button';
 import CardBlog from './card-blog';
 
 import React from 'react';
@@ -5,7 +6,7 @@ import React from 'react';
 export default function BlogSection() {
   return (
     <>
-      <div className="flex  gap-3">
+      <div className="flex gap-3 flex-col  md:flex-row">
         <CardBlog
           title="Card 1"
           description="Lorem Ipsum is simply dummy text of the
@@ -47,6 +48,9 @@ an unknown printer took a galley"
 AMERICA"
           />
         </div>
+      </div>
+      <div className="text-center ">
+        <Button variant="outline">View All Blogs</Button>
       </div>
     </>
   );

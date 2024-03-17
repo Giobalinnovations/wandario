@@ -10,6 +10,11 @@ import packingGuideImg from '../../public/assets/images/contients/packing-guide.
 import travelSafetyAdviceImg from '../../public/assets/images/contients/travel-safety-advice.png';
 import travelActivityGuidesImg from '../../public/assets/images/contients/travel-activity-guides.png';
 import blogCardImg from '../../public/assets/images/contients/blog-card_img.jpg';
+import cardIcon1 from '../../public/assets/images/photography-icon/photography-icon-1.png';
+import cardIcon2 from '../../public/assets/images/photography-icon/photography-icon-2.png';
+import cardIcon3 from '../../public/assets/images/photography-icon/photography-icon-3.png';
+import cardIcon4 from '../../public/assets/images/photography-icon/photography-icon-4.png';
+
 export {
   logo,
   northAmericaImg,
@@ -23,4 +28,8 @@ export {
   travelSafetyAdviceImg,
   travelActivityGuidesImg,
   blogCardImg,
+  cardIcon1,
+  cardIcon2,
+  cardIcon3,
+  cardIcon4,
 };

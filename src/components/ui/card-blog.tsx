@@ -33,6 +33,7 @@ export default function CardBlog({
         <CardDescription>{description}</CardDescription>
         <span>{date}</span>
       </Card>
+      <div></div>
     </>
   );
 }

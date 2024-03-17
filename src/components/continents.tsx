@@ -22,7 +22,7 @@ export default function Continents() {
         title="Explore Dream Destinations Uncover Best Travel Places In The World
 "
       />
-      <div className="flex text-center">
+      <div className="flex text-center flex-col flex-wrap items-center justify-center sm:flex-row  ">
         <MapCard
           imgSrc={northAmericaImg}
           title="North America"
@@ -43,7 +43,7 @@ export default function Continents() {
         title="Travel Guide Reviews & Tips
 "
       />
-      <div className="flex text-center">
+      <div className="flex text-center flex-col items-center justify-center sm:flex-row">
         <TravelCard
           imgSrc={tipsForPlanningImg}
           title="Tips for planning trips"
