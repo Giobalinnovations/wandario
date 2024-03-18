@@ -12,7 +12,7 @@ export default function SectionTitle({ title }: SectionTitleProps) {
           {title}
         </h2>
 
-        <div className="border-b-4  border-[#008ebe] w-3/12 my-2"></div>
+        <div className="border-b-[3px]  border-[#008ebe] w-[96px] my-2"></div>
       </div>
     </>
   );

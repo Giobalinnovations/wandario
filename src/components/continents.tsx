@@ -14,35 +14,42 @@ import {
 } from '@/lib/images';
 import SectionTitle from './ui/section-title';
 import TravelCard from './ui/travel-card';
+import { Button } from './ui/button';
 
 export default function Continents() {
   return (
     <>
-      <SectionTitle
-        title="Explore Dream Destinations Uncover Best Travel Places In The World
-"
-      />
-      <div className="flex text-center flex-col flex-wrap items-center justify-center sm:flex-row  ">
-        <MapCard
-          imgSrc={northAmericaImg}
-          title="North America"
-          alt="north america"
-        />
-        <MapCard imgSrc={europeImg} title="Europe" alt="europe" />
-        <MapCard imgSrc={asiaImg} title="Asia" alt="asia" />
-        <MapCard imgSrc={africaImg} title="North America" alt="north america" />
-        <MapCard
-          imgSrc={southAmericaImg}
-          title="South America"
-          alt="south america"
-        />
-        <MapCard imgSrc={australiaImg} title="Australia" alt="australia" />
+      <div>
+        <SectionTitle title="Our Destinations" />
+
+        <div className="flex text-center flex-col  items-center justify-center sm:flex-row  ">
+          <MapCard
+            imgSrc={northAmericaImg}
+            title="North America"
+            alt="north america"
+          />
+          <MapCard imgSrc={europeImg} title="Europe" alt="europe" />
+          <MapCard imgSrc={asiaImg} title="Asia" alt="asia" />
+          <MapCard
+            imgSrc={africaImg}
+            title="North America"
+            alt="north america"
+          />
+          <MapCard
+            imgSrc={southAmericaImg}
+            title="South America"
+            alt="south america"
+          />
+          <MapCard imgSrc={australiaImg} title="Australia" alt="australia" />
+        </div>
+        <div className="flex justify-center mb-3">
+          <Button variant="outline">View More</Button>
+        </div>
       </div>
 
-      <SectionTitle
-        title="Travel Guide Reviews & Tips
-"
-      />
+      {/* travel guide reviews */}
+      <SectionTitle title="Travel Guide Reviews & Tips" />
+
       <div className="flex text-center flex-col items-center justify-center sm:flex-row">
         <TravelCard
           imgSrc={tipsForPlanningImg}

@@ -14,6 +14,7 @@ import {
   africaImg,
   asiaImg,
   australiaImg,
+  cardImg1,
   europeImg,
   northAmericaImg,
   packingGuideImg,
@@ -23,6 +24,9 @@ import {
   travelSafetyAdviceImg,
 } from '@/lib/images';
 import NavBar2 from '@/components/ui/navbar2';
+import CardImage2 from '@/components/ui/card-image2';
+import aboutSectionTitle from '../components/ui/about-section-title';
+import AboutSectionTitle from '../components/ui/about-section-title';
 
 export default function Home() {
   return (
@@ -43,6 +47,11 @@ export default function Home() {
       <Section>
         <Wrapper>
           <PhotographyIcon />
+        </Wrapper>
+      </Section>
+      <Section>
+        <Wrapper>
+          <CardImage2 imgSrc={cardImg1} alt="cardImg1" />
         </Wrapper>
       </Section>
 

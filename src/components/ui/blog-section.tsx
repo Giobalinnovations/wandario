@@ -2,10 +2,15 @@ import { Button } from './button';
 import CardBlog from './card-blog';
 
 import React from 'react';
+import Image from 'next/image';
+import { cardBlog1, cardBlog2 } from '@/lib/images';
 
 export default function BlogSection() {
   return (
     <>
+      <div>
+        <Image src={cardBlog1} alt="" width={1920} height={1080} />
+      </div>
       <div className="flex gap-3 flex-col  md:flex-row">
         <CardBlog
           title="Card 1"
