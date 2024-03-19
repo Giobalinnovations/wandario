@@ -22,7 +22,7 @@ export default function CardBlog({
 }: CardBlogProps) {
   return (
     <>
-      <Card className="flex flex-col gap-3  justify-end px-4 pb-5 bg-slate-700 text-white relative">
+      <Card className="flex flex-col gap-3  justify-end px-4 pb-5  text-white relative">
         <div className="absolute right-0  text-7xl rotate-90 bottom-[50%] top-[50%] m-auto translate-y-2/4  text-red-500 z-50">
           <div className="outline-title text-w pb-2 text-5xl font-bold">
             {continentsTitle}

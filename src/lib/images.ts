@@ -5,6 +5,7 @@ import asiaImg from '../../public/assets/images/contients/asia.png';
 import africaImg from '../../public/assets/images/contients/africa.png';
 import southAmericaImg from '../../public/assets/images/contients/south-america.png';
 import australiaImg from '../../public/assets/images/contients/australia.png';
+import bgMapImg from '../../public/assets/images/contients/bg-map.png';
 import tipsForPlanningImg from '../../public/assets/images/contients/tips-for-planning.png';
 import packingGuideImg from '../../public/assets/images/contients/packing-guide.png';
 import travelSafetyAdviceImg from '../../public/assets/images/contients/travel-safety-advice.png';
@@ -30,6 +31,7 @@ export {
   africaImg,
   southAmericaImg,
   australiaImg,
+  bgMapImg,
   tipsForPlanningImg,
   packingGuideImg,
   travelSafetyAdviceImg,

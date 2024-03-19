@@ -22,7 +22,7 @@ export default function Continents() {
       <div>
         <SectionTitle title="Our Destinations" />
 
-        <div className="flex text-center flex-col  items-center justify-center sm:flex-row  ">
+        <div className="flex text-center flex-col justify-center items-stretch sm:flex-row gap-8  ">
           <MapCard
             imgSrc={northAmericaImg}
             title="North America"
@@ -30,11 +30,7 @@ export default function Continents() {
           />
           <MapCard imgSrc={europeImg} title="Europe" alt="europe" />
           <MapCard imgSrc={asiaImg} title="Asia" alt="asia" />
-          <MapCard
-            imgSrc={africaImg}
-            title="North America"
-            alt="north america"
-          />
+          <MapCard imgSrc={africaImg} title="Africa" alt="africa" />
           <MapCard
             imgSrc={southAmericaImg}
             title="South America"

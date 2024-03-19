@@ -17,11 +17,19 @@ type MapCardProps = {
 
 export default function MapCard({ imgSrc, title, alt }: MapCardProps) {
   return (
-    <Card className="shadow-none border-none font-bold">
-      <CardContent>
-        <Image src={imgSrc} alt={alt} />
-        <p>{title}</p>
-      </CardContent>
-    </Card>
+    <>
+      <div className="flex flex-col gap-3 h-full">
+        <Card className="border-none h-full">
+          <CardContent className="flex items-center justify-center py-5">
+            <div className="relative overflow-hidden">
+              <Image src={imgSrc} alt={alt} className="object-cover" />
+            </div>
+          </CardContent>
+        </Card>
+        <div className="font-bold">
+          <h2>{title}</h2>
+        </div>
+      </div>
+    </>
   );
 }
