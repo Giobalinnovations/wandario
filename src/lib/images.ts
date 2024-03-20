@@ -16,12 +16,18 @@ import cardIcon2 from '../../public/assets/images/photography-icon/photography-i
 import cardIcon3 from '../../public/assets/images/photography-icon/photography-icon-3.png';
 import cardIcon4 from '../../public/assets/images/photography-icon/photography-icon-4.png';
 import cardImg1 from '../../public/assets/images/card-image2/card-img-1.png';
-import bgGradientPhotography from '../../public/assets/images/photography-icon/bg-gradient-photography.png';
 import bgImgPhotography from '../../public/assets/images/photography-icon/bg-img_photography.png';
 import cardBlog1 from '../../public/assets/images/blog-section/card-blog-1.png';
 import cardBlog2 from '../../public/assets/images/blog-section/card-blog-2.png';
 import cardBlog3 from '../../public/assets/images/blog-section/card-blog-3.png';
 import cardBlog4 from '../../public/assets/images/blog-section/card-blog-4.png';
+import aboutImg1 from '../../public/assets/images/about-image/about-img1.png';
+import aboutImg2 from '../../public/assets/images/about-image/about-img2.png';
+import missionImg from '../../public/assets/images/about-image/mission-vision-img/mission-img.png';
+import visionImg from '../../public/assets/images/about-image/mission-vision-img/vision-img.png';
+import guideCardImg1 from '../../public/assets/images/about-image/guideline-image/guide-cardimg1.png';
+import guideCardImg2 from '../../public/assets/images/about-image/guideline-image/guide-cardimg2.png';
+import guideCardImg3 from '../../public/assets/images/about-image/guideline-image/guide-cardimg3.png';
 
 export {
   logo,
@@ -42,10 +48,16 @@ export {
   cardIcon3,
   cardIcon4,
   cardImg1,
-  bgGradientPhotography,
   bgImgPhotography,
   cardBlog1,
   cardBlog2,
   cardBlog3,
   cardBlog4,
+  aboutImg1,
+  aboutImg2,
+  missionImg,
+  visionImg,
+  guideCardImg1,
+  guideCardImg2,
+  guideCardImg3,
 };

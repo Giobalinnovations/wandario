@@ -1,7 +1,6 @@
 import React from 'react';
 import CardIcon from './card-icon';
 import {
-  bgGradientPhotography,
   bgImgPhotography,
   cardIcon1,
   cardIcon2,
@@ -14,12 +13,12 @@ import Image from 'next/image';
 export default function PhotographyIcon() {
   return (
     <>
-      <div className="relative overflow-hidden ">
+      <div className="relative overflow-hidden text-white">
         <Image src={bgImgPhotography} alt="" />
 
-        <div className="absolute top-[10%] left-[10%] w-full h-full ">
+        <div className="absolute top-[10%] left-[5%]   ">
           <PhotographyTitleSection />
-          <div className="flex flex-col  text-center justify-center items-center gap-3 sm:flex-row  my-6 w-2/3 ">
+          <div className="flex gap-10 justify-between w-full my-6  ">
             <CardIcon
               imgSrc={cardIcon1}
               title="Lorem Ipsum is simply dummy text of the printing and typesetting industry."

@@ -19,10 +19,10 @@ import { Button } from './ui/button';
 export default function Continents() {
   return (
     <>
-      <div>
+      <section className="conatiner">
         <SectionTitle title="Our Destinations" />
 
-        <div className="flex text-center flex-col justify-center items-stretch sm:flex-row gap-8  ">
+        <div className="flex justify-center items-stretch sm:flex-row gap-8 ">
           <MapCard
             imgSrc={northAmericaImg}
             title="North America"
@@ -38,36 +38,10 @@ export default function Continents() {
           />
           <MapCard imgSrc={australiaImg} title="Australia" alt="australia" />
         </div>
-        <div className="flex justify-center mb-3">
+        <div className="flex justify-center mb-3 text-[#008EBE] border-[#008EBE]">
           <Button variant="outline">View More</Button>
         </div>
-      </div>
-
-      {/* travel guide reviews */}
-      <SectionTitle title="Travel Guide Reviews & Tips" />
-
-      <div className="flex text-center flex-col items-center justify-center sm:flex-row">
-        <TravelCard
-          imgSrc={tipsForPlanningImg}
-          title="Tips for planning trips"
-          alt="tips for planning"
-        />
-        <TravelCard
-          imgSrc={packingGuideImg}
-          title="Packing guides"
-          alt="packing guides"
-        />
-        <TravelCard
-          imgSrc={travelSafetyAdviceImg}
-          title="Travel safety advice"
-          alt="travel safety advice "
-        />
-        <TravelCard
-          imgSrc={travelActivityGuidesImg}
-          title="Travel Activity Guides "
-          alt="travel activity guides"
-        />
-      </div>
+      </section>
     </>
   );
 }

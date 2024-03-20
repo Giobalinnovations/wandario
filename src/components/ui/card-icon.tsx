@@ -18,9 +18,9 @@ type CardIconProps = {
 export default function CardIcon({ imgSrc, alt, title }: CardIconProps) {
   return (
     <>
-      <Card className="bg-slate-600 flex flex-col items-center justify-center  px-4 py-4 gap-2 text-center w-2/3 text-white]">
+      <Card className="bg-slate-600 flex flex-col px-[30px] py-[10px] items-center justify-center gap-2 text-center  text-white]">
         <Image src={imgSrc} alt={alt} />
-        <CardTitle>{title}</CardTitle>
+        <CardTitle className="font-light">{title}</CardTitle>
       </Card>
     </>
   );

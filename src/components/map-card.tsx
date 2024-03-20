@@ -18,9 +18,9 @@ type MapCardProps = {
 export default function MapCard({ imgSrc, title, alt }: MapCardProps) {
   return (
     <>
-      <div className="flex flex-col gap-3 h-full">
-        <Card className="border-none h-full">
-          <CardContent className="flex items-center justify-center py-5">
+      <div className="flex flex-col items-center gap-3 my-5 w-full">
+        <Card className="border-none h-full flex items-center justify-center w-full py-5 ">
+          <CardContent>
             <div className="relative overflow-hidden">
               <Image src={imgSrc} alt={alt} className="object-cover" />
             </div>

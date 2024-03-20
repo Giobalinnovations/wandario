@@ -27,6 +27,7 @@ import NavBar2 from '@/components/ui/navbar2';
 import CardImage2 from '@/components/ui/card-image2';
 import aboutSectionTitle from '../components/ui/about-section-title';
 import AboutSectionTitle from '../components/ui/about-section-title';
+import TravelContinents from '@/components/ui/travel-continents';
 
 export default function Home() {
   return (
@@ -49,12 +50,22 @@ export default function Home() {
           <PhotographyIcon />
         </Wrapper>
       </Section>
+
+      {/* about section */}
       <Section>
         <Wrapper>
           <CardImage2 imgSrc={cardImg1} alt="cardImg1" />
         </Wrapper>
       </Section>
 
+      {/* travel guide section */}
+      <Section>
+        <Wrapper>
+          <TravelContinents />
+        </Wrapper>
+      </Section>
+
+      {/* news blog section */}
       <Section>
         <Wrapper>
           <BlogSection />

@@ -19,16 +19,19 @@ type TravelCardProps = {
 export default function TravelCard({ imgSrc, title, alt }: TravelCardProps) {
   return (
     <>
-      <Card className="shadow-none border-none font-bold ">
-        <CardContent className="flex flex-col items-center  ">
-          <Image
-            className="hover:scale-110 transition delay-900 ease-in-out"
-            src={imgSrc}
-            alt={alt}
-          />
-          <p className="w-1/2">{title}</p>
-        </CardContent>
-      </Card>
+      <div>
+        <Card className="shadow-none border-none font-bold rounded-[50%] w-[300px] h-[300px] hover:scale-110 transition delay-900 ease-in-out">
+          <CardContent className="flex justify-center items-center h-full">
+            <div>
+              <Image src={imgSrc} alt={alt} />
+            </div>
+          </CardContent>
+        </Card>
+
+        <div>
+          <p className="font-bold my-5">{title}</p>
+        </div>
+      </div>
     </>
   );
 }
