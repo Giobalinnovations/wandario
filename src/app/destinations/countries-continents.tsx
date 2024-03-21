@@ -14,12 +14,17 @@ import {
 import { title } from 'process';
 import AvtarImage from './avtar-image';
 import CountriesList from './countries-list';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function CountriesContinents() {
   return (
     <>
-      <section className="flex">
-        <div className="flex flex-col gap-4">
+      <div>
+        <h2 className="font-bold text-3xl">Explore By Countries</h2>
+        <div className="border-b-[3px]  border-[#008ebe] w-[200px] my-2"></div>
+      </div>
+      <section className="flex justify-between ">
+        <div className="flex flex-col gap-4 ">
           <div className="flex w-full items-center gap-4">
             <AvtarImage imgSrc={northAmericaAvtar} alt="north america" />
             <CountriesSection
@@ -70,27 +75,37 @@ export default function CountriesContinents() {
           </div>
         </div>
 
-        <div>
-          <CountriesList
-            imgSrc={locationIcon}
-            alt="location icon"
-            CountriesName="CANADA"
-          />
-          <CountriesList
-            imgSrc={locationIcon}
-            alt="location icon"
-            CountriesName="MEXICO"
-          />
-          <CountriesList
-            imgSrc={locationIcon}
-            alt="location icon"
-            CountriesName="PEURTO RICO"
-          />
-          <CountriesList
-            imgSrc={locationIcon}
-            alt="location icon"
-            CountriesName="UNITED STATES"
-          />
+        <div className="w-[700px]">
+          <Card>
+            <CardHeader>
+              <CardTitle>
+                <h2 className="font-bold text-3xl">Explore By Countries</h2>
+                <div className="border-b-[3px]  border-[#008ebe] w-[200px] mt-2"></div>
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <CountriesList
+                imgSrc={locationIcon}
+                alt="location icon"
+                CountriesName="CANADA"
+              />
+              <CountriesList
+                imgSrc={locationIcon}
+                alt="location icon"
+                CountriesName="MEXICO"
+              />
+              <CountriesList
+                imgSrc={locationIcon}
+                alt="location icon"
+                CountriesName="PEURTO RICO"
+              />
+              <CountriesList
+                imgSrc={locationIcon}
+                alt="location icon"
+                CountriesName="UNITED STATES"
+              />
+            </CardContent>
+          </Card>
         </div>
       </section>
     </>

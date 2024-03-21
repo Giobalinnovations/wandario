@@ -14,13 +14,13 @@ export default function CountriesList({
 }: CountriesListProps) {
   return (
     <>
-      <Card className="w-[500px] py-3 px-5 ">
-        <div className="flex items-center gap-4 ">
+      <div>
+        <div className="flex items-center gap-4 py-1">
           <Image src={imgSrc} alt={alt} className="" />
-          <CardTitle>{CountriesName}</CardTitle>
+          <h2>{CountriesName}</h2>
         </div>
-        <div className="border-b-[1px] border-[#272727] mt-3"></div>
-      </Card>
+        <div className="border-b-[1px] border-[#ececec] my-2"></div>
+      </div>
     </>
   );
 }

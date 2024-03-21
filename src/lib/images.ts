@@ -36,6 +36,11 @@ import africaAvtar from '../../public/assets/images/destination-countries/avtar/
 import southAvtar from '../../public/assets/images/destination-countries/avtar/south-america-avtar.png';
 import australiaAvtar from '../../public/assets/images/destination-countries/avtar/australia-avtar.png';
 import locationIcon from '../../public/assets/images/destination-countries/location-icon.png';
+import philippinesCardImg from '../../public/assets/images/destination-countries/philippines-card-image.png';
+import japanCardImg from '../../public/assets/images/destination-countries/japan-card-image.png';
+import icelandCardImg from '../../public/assets/images/destination-countries/iceland-card-image.png';
+import indonesiaCardImg from '../../public/assets/images/destination-countries/indonesia-card-image.png';
+import popularBackgroundImg from '../../public/assets/images/destination-countries/popular-background-image.png';
 export {
   logo,
   northAmericaImg,
@@ -75,4 +80,9 @@ export {
   southAvtar,
   australiaAvtar,
   locationIcon,
+  indonesiaCardImg,
+  philippinesCardImg,
+  japanCardImg,
+  icelandCardImg,
+  popularBackgroundImg,
 };
