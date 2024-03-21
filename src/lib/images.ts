@@ -28,7 +28,14 @@ import visionImg from '../../public/assets/images/about-image/mission-vision-img
 import guideCardImg1 from '../../public/assets/images/about-image/guideline-image/guide-cardimg1.png';
 import guideCardImg2 from '../../public/assets/images/about-image/guideline-image/guide-cardimg2.png';
 import guideCardImg3 from '../../public/assets/images/about-image/guideline-image/guide-cardimg3.png';
-
+import rightArrow from '../../public/assets/images/destination-countries/avtar/right-arrow.png';
+import northAmericaAvtar from '../../public/assets/images/destination-countries/avtar/north-america-avtar.png';
+import europeAvtar from '../../public/assets/images/destination-countries/avtar/europe-avtar.png';
+import asiaAvtar from '../../public/assets/images/destination-countries/avtar/asia-avtar.png';
+import africaAvtar from '../../public/assets/images/destination-countries/avtar/africa-avtar.png';
+import southAvtar from '../../public/assets/images/destination-countries/avtar/south-america-avtar.png';
+import australiaAvtar from '../../public/assets/images/destination-countries/avtar/australia-avtar.png';
+import locationIcon from '../../public/assets/images/destination-countries/location-icon.png';
 export {
   logo,
   northAmericaImg,
@@ -60,4 +67,12 @@ export {
   guideCardImg1,
   guideCardImg2,
   guideCardImg3,
+  rightArrow,
+  northAmericaAvtar,
+  europeAvtar,
+  asiaAvtar,
+  africaAvtar,
+  southAvtar,
+  australiaAvtar,
+  locationIcon,
 };
