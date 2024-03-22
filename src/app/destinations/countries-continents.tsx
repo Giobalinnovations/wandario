@@ -23,9 +23,9 @@ export default function CountriesContinents() {
         <h2 className="font-bold text-3xl">Explore By Countries</h2>
         <div className="border-b-[3px]  border-[#008ebe] w-[200px] my-2"></div>
       </div>
-      <section className="flex justify-between ">
-        <div className="flex flex-col gap-4 ">
-          <div className="flex w-full items-center gap-4">
+      <section className="flex flex-col   min-[960px]:flex-row justify-between">
+        <div className="flex flex-col gap-4">
+          <div className="flex w-full items-center flex-shrink-0 min-[960px]: gap-4">
             <AvtarImage imgSrc={northAmericaAvtar} alt="north america" />
             <CountriesSection
               title="NORTH AMERICA"
@@ -75,7 +75,7 @@ export default function CountriesContinents() {
           </div>
         </div>
 
-        <div className="w-[700px]">
+        <div className="w-[700px] mt-9 min-[960px]:  ">
           <Card>
             <CardHeader>
               <CardTitle>

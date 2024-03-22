@@ -41,6 +41,10 @@ import japanCardImg from '../../public/assets/images/destination-countries/japan
 import icelandCardImg from '../../public/assets/images/destination-countries/iceland-card-image.png';
 import indonesiaCardImg from '../../public/assets/images/destination-countries/indonesia-card-image.png';
 import popularBackgroundImg from '../../public/assets/images/destination-countries/popular-background-image.png';
+import itinerariesIcon from '../../public/assets/images/destination-countries/trip-planning-icon/itineraries-icon.png';
+import toStayIcon from '../../public/assets/images/destination-countries/trip-planning-icon/to-stay-icon.png';
+import todosIcon from '../../public/assets/images/destination-countries/trip-planning-icon/todos-icon.png';
+import whatEatIcon from '../../public/assets/images/destination-countries/trip-planning-icon/what-to-eat-icon.png';
 export {
   logo,
   northAmericaImg,
@@ -85,4 +89,8 @@ export {
   japanCardImg,
   icelandCardImg,
   popularBackgroundImg,
+  itinerariesIcon,
+  toStayIcon,
+  todosIcon,
+  whatEatIcon,
 };

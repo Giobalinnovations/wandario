@@ -14,7 +14,7 @@ export default function BlogSection() {
           <div className="border-b-[3px]   border-[#008ebe] w-[90px] my-2"></div>
         </div>
 
-        <div className="flex gap-3 flex-col   md:flex-row items-center  ">
+        <div className="flex gap-3 flex-col   min-[960px]:flex-row items-center  ">
           <CardBlog
             imgSrc={cardBlog1}
             alt="card blog image1"

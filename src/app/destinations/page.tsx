@@ -6,6 +6,8 @@ import Section from '@/components/ui/section';
 import Wrapper from '../../components/ui/wrapper';
 import PopularSection from './popular-section';
 import PopularCardImg from './popular-card-img';
+import TripPlanningSection from './trip-planning-section';
+import BlogSection from '@/components/ui/blog-section';
 
 export default function Destinations() {
   return (
@@ -15,10 +17,23 @@ export default function Destinations() {
           <CountriesContinents />
         </Wrapper>
       </Section>
-
+      {/* popular section */}
       <Section>
         <Wrapper>
           <PopularSection />
+        </Wrapper>
+      </Section>
+      {/* trip planning section */}
+      <Section>
+        <Wrapper>
+          <TripPlanningSection />
+        </Wrapper>
+      </Section>
+
+      {/* news blog section */}
+      <Section>
+        <Wrapper>
+          <BlogSection />
         </Wrapper>
       </Section>
     </>

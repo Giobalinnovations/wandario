@@ -43,7 +43,7 @@ export default function CardBlog({
             <h1>{title}</h1>
             <div className="border-b-[3px]  border-[#008ebe] w-[200px] my-2"></div>
           </div>
-          <CardDescription className="text-white font-thin">
+          <CardDescription className="text-white font-thin line-clamp-3">
             {description}
           </CardDescription>
           <span>{date}</span>
