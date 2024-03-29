@@ -1,4 +1,4 @@
-import Header from './header_old';
+import Header from '../header';
 
 export default function Hero() {
   return (
