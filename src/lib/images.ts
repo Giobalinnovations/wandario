@@ -45,6 +45,8 @@ import itinerariesIcon from '../../public/assets/images/destination-countries/tr
 import toStayIcon from '../../public/assets/images/destination-countries/trip-planning-icon/to-stay-icon.png';
 import todosIcon from '../../public/assets/images/destination-countries/trip-planning-icon/todos-icon.png';
 import whatEatIcon from '../../public/assets/images/destination-countries/trip-planning-icon/what-to-eat-icon.png';
+
+import heroBanner from '../../public/assets/images/hero-banner.png';
 export {
   logo,
   northAmericaImg,
@@ -93,4 +95,5 @@ export {
   toStayIcon,
   todosIcon,
   whatEatIcon,
+  heroBanner,
 };
