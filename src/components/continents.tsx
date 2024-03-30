@@ -19,7 +19,7 @@ import { Button } from './ui/button';
 export default function Continents() {
   return (
     <>
-      <section className="conatiner">
+      <section className="container">
         <SectionTitle title="Our Destinations" />
 
         <div className="flex justify-center items-stretch sm:flex-row gap-8 ">

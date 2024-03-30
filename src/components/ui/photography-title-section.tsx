@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function PhotographyTitleSection() {
   return (
     <>
-      <div className="flex justify-between ">
+      <div className="flex justify-between  ">
         <div className="basis-[41%]">
           <h2 className="text-3xl font-bold ">Photography</h2>
           <div className="border-b-[3px]  border-[#008ebe] w-[20%] my-2"></div>
