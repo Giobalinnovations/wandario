@@ -49,6 +49,10 @@ import whatEatIcon from '../../public/assets/images/destination-countries/trip-p
 import heroBanner from '../../public/assets/images/hero-banner.png';
 import instagramIcon from '../../public/assets/images/footer/instagram-icon.png';
 import soloTripsImg from '../../public/assets/images/footer/solo-trips.jpg';
+import footerBg from '../../public/assets/images/footer/footer-bg.png';
+import dishImg from '../../public/assets/images/footer/3dish.jpg';
+import foodImg from '../../public/assets/images/footer/3food.jpg';
+import placesImg from '../../public/assets/images/footer/4places.jpg';
 export {
   logo,
   northAmericaImg,
@@ -100,4 +104,8 @@ export {
   heroBanner,
   instagramIcon,
   soloTripsImg,
+  footerBg,
+  dishImg,
+  foodImg,
+  placesImg,
 };
