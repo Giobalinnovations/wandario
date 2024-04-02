@@ -16,9 +16,9 @@ export default function PhotographyIcon() {
       <div className="relative overflow-hidden text-white">
         <Image src={bgImgPhotography} alt="" />
 
-        <div className="absolute top-[10%] left-[5%]   ">
+        <div className="absolute top-[10%] left-[3%]   mr-10">
           <PhotographyTitleSection />
-          <div className="flex gap-10 justify-between w-full my-6  ">
+          <div className="flex gap-10 justify-between w-full mt-14  ">
             <CardIcon
               imgSrc={cardIcon1}
               title="Lorem Ipsum is simply dummy text of the printing and typesetting industry."

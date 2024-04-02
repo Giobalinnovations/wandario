@@ -16,15 +16,20 @@ export default function AboutSectionTitle({
 }: AboutSectionTitleProps) {
   return (
     <>
-      <div
-        className="flex
-      flex-col gap-2 "
-      >
-        <h2 className="font-bold text-3xl">{title}</h2>
+      <div className="flex flex-col gap-2 ">
+        <div>
+          <h2 className="font-bold text-3xl">{title}</h2>
+          <div className="border-b-[3px]  border-[#008ebe] w-[20%] my-2"></div>
+        </div>
         <p>{paragraph1}</p>
         <p>{paragraph2}</p>
         <div>
-          <Button variant="outline">Know More</Button>
+          <Button
+            variant="outline"
+            className="border-[#008ebe] bg-transparent text-[#008ebe]"
+          >
+            Know More
+          </Button>
         </div>
       </div>
     </>
