@@ -28,6 +28,7 @@ import CardImage2 from '@/components/ui/card-image2';
 import aboutSectionTitle from '../components/ui/about-section-title';
 import AboutSectionTitle from '../components/ui/about-section-title';
 import TravelContinents from '@/components/ui/travel-continents';
+import FrequentlySection from '@/components/ui/frequently-section';
 
 export default function Home() {
   return (
@@ -64,7 +65,7 @@ export default function Home() {
           <TravelContinents />
         </Wrapper>
       </Section>
-
+      <FrequentlySection />
       {/* news blog section */}
       <Section>
         <Wrapper>

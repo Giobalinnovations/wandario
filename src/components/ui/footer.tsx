@@ -14,10 +14,10 @@ import Wrapper from './wrapper';
 
 export default function Footer() {
   return (
-    <footer className="bg-[url(../../public/assets/images/footer/footer-bg.png)] object-cover  text-white">
+    <footer className="bg-[url(../../public/assets/images/footer/footer-bg.png)] object-cover bg-no-repeat  text-white">
       <Section>
         <Wrapper>
-          <div className="flex justify-center flex-wrap  items-start lg:flex">
+          <div className="flex  flex-wrap  items-start lg:flex justify-between">
             {/* logo */}
             <div className="flex gap-8 flex-col ">
               <div>
@@ -43,7 +43,7 @@ export default function Footer() {
               <Link href={'#'}>Resources</Link>
               <Link href={'#'}>Contact Us</Link>
             </div>
-            <div className="flex flex-col gap-[50px]">
+            <div className="flex flex-col gap-[50px] ">
               <aside className="flex  items-start gap-8">
                 {/* web stories */}
                 <div>
