@@ -14,7 +14,7 @@ export default function TravelContinents() {
     <>
       <SectionTitle title="Travel Guide Reviews & Tips" />
 
-      <div className="flex text-center flex-col items-center justify-center sm:flex-row gap-6 my-5">
+      <div className="flex text-center flex-col items-center justify-center md:flex-row gap-6 my-5">
         <TravelCard
           imgSrc={tipsForPlanningImg}
           title="Tips for planning trips"

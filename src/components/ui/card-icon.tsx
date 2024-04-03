@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { bgImgPhotography, cardIcon1 } from '@/lib/images';
+
 import Image, { StaticImageData } from 'next/image';
 
 type CardIconProps = {
@@ -18,7 +18,7 @@ type CardIconProps = {
 export default function CardIcon({ imgSrc, alt, title }: CardIconProps) {
   return (
     <>
-      <Card className="bg-slate-600 flex flex-col px-[20px] py-[10px] items-center justify-center gap-2 text-center  text-white]">
+      <Card className=" backdrop-blur-sm bg-[#0000001A]	 flex flex-col w-[240px] h-[220px] px-[20px]  items-center justify-center gap-2 text-center  text-white]">
         <Image src={imgSrc} alt={alt} />
         <CardTitle className="font-light">{title}</CardTitle>
       </Card>

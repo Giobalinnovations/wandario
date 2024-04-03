@@ -10,7 +10,7 @@ type CardImage2Props = {
 export default function CardImage2({ imgSrc, alt }: CardImage2Props) {
   return (
     <>
-      <div className="flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center md:flex-row">
         <div className="basis-[488px]">
           <AboutSectionTitle
             title="About us"
@@ -19,7 +19,9 @@ export default function CardImage2({ imgSrc, alt }: CardImage2Props) {
           />
         </div>
 
-        <Image src={imgSrc} alt={alt} />
+        <div>
+          <Image src={imgSrc} alt={alt} />
+        </div>
       </div>
     </>
   );

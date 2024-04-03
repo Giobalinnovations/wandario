@@ -19,10 +19,10 @@ import { Button } from './ui/button';
 export default function Continents() {
   return (
     <>
-      <section className="container">
+      <section className="container flex flex-col gap-7">
         <SectionTitle title="Our Destinations" />
 
-        <div className="flex justify-center items-stretch sm:flex-row gap-8 ">
+        <div className="flex justify-center gap-6  flex-wrap">
           <MapCard
             imgSrc={northAmericaImg}
             title="North America"
