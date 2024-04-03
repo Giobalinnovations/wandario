@@ -16,6 +16,7 @@ import cardIcon2 from '../../public/assets/images/photography-icon/photography-i
 import cardIcon3 from '../../public/assets/images/photography-icon/photography-icon-3.png';
 import cardIcon4 from '../../public/assets/images/photography-icon/photography-icon-4.png';
 import cardImg1 from '../../public/assets/images/card-image2/card-img-1.png';
+import cardImg2 from '../../public/assets/images/card-image2/card-img-2.png';
 import cardBlog1 from '../../public/assets/images/blog-section/card-blog-1.png';
 import cardBlog2 from '../../public/assets/images/blog-section/card-blog-2.png';
 import cardBlog3 from '../../public/assets/images/blog-section/card-blog-3.png';
@@ -54,6 +55,10 @@ import foodImg from '../../public/assets/images/footer/3food.jpg';
 import placesImg from '../../public/assets/images/footer/4places.jpg';
 import plusIcon from '../../public/assets/images/icon/plus-icon.png';
 import minusIcon from '../../public/assets/images/icon/minus-icon.png';
+import canadaImg from '../../public/assets/images/destination-countries/north-america/canada-img.png';
+import mexicoImg from '../../public/assets/images/destination-countries/north-america/mexico-img1.png';
+import peurtoRicoImg from '../../public/assets/images/destination-countries/north-america/peurto-rico-img1.png';
+import unitedStatesImg from '../../public/assets/images/destination-countries/north-america/united-states1.png';
 export {
   logo,
   northAmericaImg,
@@ -73,6 +78,7 @@ export {
   cardIcon3,
   cardIcon4,
   cardImg1,
+  cardImg2,
   cardBlog1,
   cardBlog2,
   cardBlog3,
@@ -110,4 +116,8 @@ export {
   placesImg,
   plusIcon,
   minusIcon,
+  canadaImg,
+  mexicoImg,
+  peurtoRicoImg,
+  unitedStatesImg,
 };
