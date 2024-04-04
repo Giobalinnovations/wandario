@@ -25,8 +25,8 @@ import {
 } from '@/lib/images';
 import NavBar2 from '@/components/ui/navbar2';
 import CardImage2 from '@/components/ui/card-image2';
-import aboutSectionTitle from '../components/ui/about-section-title';
-import AboutSectionTitle from '../components/ui/about-section-title';
+import aboutSectionTitle from '../components/ui/section-title-card';
+import AboutSectionTitle from '../components/ui/section-title-card';
 import TravelContinents from '@/components/ui/travel-continents';
 import FrequentlySection from '@/components/ui/frequently-section';
 
