@@ -10,10 +10,16 @@ import KnowBeforeSection from '../north-america/know-before-section';
 import CardCitiesSection from '@/components/card-cities-section';
 import CardFoodSection from './card-food-section';
 import CardCommunitySection from '@/components/card-community-section';
+import ExploreCanada from './explore-canada';
 
 export default function CanadaBlog() {
   return (
     <>
+      <Section>
+        <Wrapper>
+          <ExploreCanada />
+        </Wrapper>
+      </Section>
       {/* cities card */}
       <Section>
         <Wrapper>
