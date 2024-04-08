@@ -1,6 +1,6 @@
 import { Card } from '@/components/ui/card';
 import Image, { StaticImageData } from 'next/image';
-import React from 'react';
+
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 type CountriesSectionProps = {

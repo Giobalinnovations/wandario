@@ -3,17 +3,17 @@ import { Button } from './button';
 import { title } from 'process';
 import { BiParagraph } from 'react-icons/bi';
 
-type AboutSectionTitleProps = {
+type SectionTitleCardProps = {
   title: string;
   paragraph1: string;
   paragraph2: string;
 };
 
-export default function AboutSectionTitle({
+export default function SectionTitleCard({
   title,
   paragraph1,
   paragraph2,
-}: AboutSectionTitleProps) {
+}: SectionTitleCardProps) {
   return (
     <>
       <div className="flex flex-col gap-2 h-[200px] ">

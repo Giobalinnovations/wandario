@@ -26,7 +26,7 @@ export default function GuideCardContinents() {
               btn="Read More"
             />
             <GuideCard
-              CountriesName="Canada"
+              CountriesName="Mexcio"
               description="Lorem Ipsum is simply dummy text of the printing and typeset-ting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
               btn="Read More"
             />

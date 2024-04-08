@@ -59,6 +59,19 @@ import canadaImg from '../../public/assets/images/destination-countries/north-am
 import mexicoImg from '../../public/assets/images/destination-countries/north-america/mexico-img1.png';
 import peurtoRicoImg from '../../public/assets/images/destination-countries/north-america/peurto-rico-img1.png';
 import unitedStatesImg from '../../public/assets/images/destination-countries/north-america/united-states1.png';
+import cardHotel1 from '../../public/assets/images/card-hotel/card-hotel.png';
+import cardHotel2 from '../../public/assets/images/card-hotel/card-hotel2.png';
+import cardHotel3 from '../../public/assets/images/card-hotel/card-hotel3.png';
+import cardHotel4 from '../../public/assets/images/card-hotel/card-hotel4.png';
+import cardfood from '../../public/assets/images/card-hotel/card-food.png';
+import cardfood2 from '../../public/assets/images/card-hotel/card-food2.png';
+import cardfood3 from '../../public/assets/images/card-hotel/card-food3.png';
+import cardfood4 from '../../public/assets/images/card-hotel/card-food4.png';
+import cardCommunityImg from '../../public/assets/images/card-hotel/card-community-img.png';
+import cardCommunitybg from '../../public/assets/images/card-hotel/communtiy-bg.png';
+import starIcon from '../../public/assets/images/card-hotel/star-icon.png';
+import locationhotelIcon from '../../public/assets/images/card-hotel/location-icon.png';
+import equipmentImg from '../../public/assets/images/card-image2/equipment.png';
 export {
   logo,
   northAmericaImg,
@@ -120,4 +133,17 @@ export {
   mexicoImg,
   peurtoRicoImg,
   unitedStatesImg,
+  cardHotel1,
+  starIcon,
+  locationhotelIcon,
+  cardHotel2,
+  cardHotel3,
+  cardHotel4,
+  cardfood,
+  cardfood2,
+  cardfood3,
+  cardfood4,
+  cardCommunityImg,
+  cardCommunitybg,
+  equipmentImg,
 };

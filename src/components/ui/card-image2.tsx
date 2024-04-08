@@ -1,6 +1,6 @@
 import React from 'react';
 import Image, { StaticImageData } from 'next/image';
-import AboutSectionTitle from './about-section-title';
+import AboutSectionTitle from './section-title-card';
 
 type CardImage2Props = {
   alt: string;
