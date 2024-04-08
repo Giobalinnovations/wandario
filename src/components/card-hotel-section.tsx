@@ -8,7 +8,7 @@ export default function CardHotelSection() {
   return (
     <>
       <SectionTitle title={'Our Best Accommodation'} />
-      <section className="flex justify-center gap-4 items-center">
+      <section className="grid items-center justify-center  sm:grid-cols-2  lg:grid-cols-4 gap-5">
         <CardHotel
           imgSrc={cardHotel1}
           title={'Peals Hotel & Suites'}

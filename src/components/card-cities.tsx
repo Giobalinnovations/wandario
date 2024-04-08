@@ -22,8 +22,8 @@ export default function CardCities({
 }: CardCitiesProps) {
   return (
     <>
-      <Card className=" relative rounded-[50px]  text-white">
-        <Image src={imgSrc} alt={alt} className="h-full " />
+      <Card className="w-full relative rounded-[50px]  text-white ">
+        <Image src={imgSrc} alt={alt} className="h-full object-cover w-full" />
         <CardContent className="absolute bottom-0 left-0">
           <CardTitle className="text-[26px] font-[600]  text-white">
             {CountriesName}

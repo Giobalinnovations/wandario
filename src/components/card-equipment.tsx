@@ -1,58 +1,54 @@
 import Image, { StaticImageData } from 'next/image';
 import { Card, CardContent, CardDescription, CardTitle } from './ui/card';
 import { locationhotelIcon, starIcon } from '@/lib/images';
+import { Button } from './ui/button';
 
-type CardHotelProps = {
+type CardEquipmentProps = {
   title: string;
   description: string;
   alt: string;
-
+  btn: string;
   imgSrc: StaticImageData;
-  subrating: string;
   ratingScore: string;
 };
 
-export default function CardHotel({
+export default function CardEquipment({
   imgSrc,
   alt,
   description,
-  subrating,
   ratingScore,
-
+  btn,
   title,
-}: CardHotelProps) {
+}: CardEquipmentProps) {
   return (
     <>
-      <Card className="rounded-[30px]">
-        <div className="relative">
+      <Card className="rounded-[40px] ">
+        <div className="">
           <Image src={imgSrc} alt={alt} className="object-cover w-full" />
-          <div className="absolute text-white py-1 bg-[#00000099] left-0 w-full bottom-0 gap-3 flex justify-center items-center">
-            <div className="">
-              <Image
-                src={locationhotelIcon}
-                alt={'location icon'}
-                width={16}
-                height={20}
-              />
-            </div>
-            <CardTitle className="font-[600] text-[18px] t ">{title}</CardTitle>
-          </div>
         </div>
-        <CardContent className=" mt-3">
-          <div className="flex gap-2">
+        <CardContent className="flex flex-col gap-2">
+          <CardTitle className="text-[20px]">{title}</CardTitle>
+          <div className="flex items-center justify-center gap-2">
             <Image src={starIcon} alt={'Star Icon'} />
             <Image src={starIcon} alt={'Star Icon'} />
             <Image src={starIcon} alt={'Star Icon'} />
             <Image src={starIcon} alt={'Star Icon'} />
             <Image src={starIcon} alt={'Star Icon'} />
+            <h1 className="text-[14px] font-[500] text-[#008ebe]">
+              {ratingScore}
+            </h1>
           </div>
           <CardDescription className="text-[14px] italic font-[400]">
             {description}
           </CardDescription>
-          <h6 className="text-[10px] font-[600] mt-2">{subrating}</h6>
-          <h1 className="text-[22px] font-[600] text-[#008ebe]">
-            {ratingScore}
-          </h1>
+          <div>
+            <Button
+              variant="outline"
+              className="rounded-[100px] bg-transparent text-[#008ebe] border-[#008ebe]"
+            >
+              {btn}
+            </Button>
+          </div>
         </CardContent>
       </Card>
     </>

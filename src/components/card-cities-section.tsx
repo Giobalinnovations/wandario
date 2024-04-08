@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {
   canadaImg,
   mexicoImg,
@@ -14,7 +12,7 @@ export default function CardCitiesSection() {
   return (
     <>
       <TitleTop title="Explore Cities In Canada" />
-      <section className="flex gap-5">
+      <section className="grid items-center justify-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         <CardCities
           imgSrc={canadaImg}
           alt="Banff"

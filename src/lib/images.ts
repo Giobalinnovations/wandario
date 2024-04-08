@@ -69,8 +69,9 @@ import cardfood3 from '../../public/assets/images/card-hotel/card-food3.png';
 import cardfood4 from '../../public/assets/images/card-hotel/card-food4.png';
 import cardCommunityImg from '../../public/assets/images/card-hotel/card-community-img.png';
 import cardCommunitybg from '../../public/assets/images/card-hotel/communtiy-bg.png';
-import starIcon from '../../public/assets/images/card-hotel/Star 1.png';
+import starIcon from '../../public/assets/images/card-hotel/star-icon.png';
 import locationhotelIcon from '../../public/assets/images/card-hotel/location-icon.png';
+import equipmentImg from '../../public/assets/images/card-image2/equipment.png';
 export {
   logo,
   northAmericaImg,
@@ -144,4 +145,5 @@ export {
   cardfood4,
   cardCommunityImg,
   cardCommunitybg,
+  equipmentImg,
 };
