@@ -8,7 +8,7 @@ export default function GuideCardContinents() {
       <Card className=" rounded-[30px]  bg-[url('/assets/images/destination-countries/north-america/guide-bg.png')] bg-no-repeat">
         <Section className="flex flex-col gap-10 mx-8">
           <div className="flex flex-col items-center justify-center">
-            <h2 className=" w-4/6	 text-center mx-auto text-3xl font-bold text-white">
+            <h2 className=" w-4/6	 text-center mx-auto text-3xl font-bold text-[#fff]">
               Travel Guides
             </h2>
 
