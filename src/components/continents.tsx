@@ -19,7 +19,7 @@ import { Button } from './ui/button';
 export default function Continents() {
   return (
     <>
-      <section className="container flex flex-col gap-7">
+      <div className="flex flex-col gap-7">
         <SectionTitle title="Our Destinations" />
 
         <div className="flex justify-center gap-6  flex-wrap">
@@ -41,7 +41,7 @@ export default function Continents() {
         <div className="flex justify-center mb-3 text-[#008EBE] border-[#008EBE]">
           <Button variant="outline">View More</Button>
         </div>
-      </section>
+      </div>
     </>
   );
 }
