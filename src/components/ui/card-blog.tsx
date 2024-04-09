@@ -8,6 +8,7 @@ import {
 } from '@/components/ui/card';
 import Image, { StaticImageData } from 'next/image';
 import { Button } from './button';
+import BgImage from './bg-image';
 
 type CardBlogProps = {
   title: string;
@@ -28,36 +29,29 @@ export default function CardBlog({
 }: CardBlogProps) {
   return (
     <>
-      <Card className=" relative h-full rounded-[50px] text-white bg-slate-800">
-        <div className="">
-          <Image src={imgSrc} alt={alt} />
-        </div>
-
-        {/* <div className="absolute right-0  text-7xl rotate-90 bottom-[50%] top-[50%] m-auto translate-y-2/4  text-red-500 z-50">
-          <div className="outline-title text-w pb-2 text-5xl font-bold">
-            {continentsTitle}
-          </div>
-        </div> */}
-        <CardTitle className="flex flex-col gap-1 absolute  bottom-6 left-4">
-          <div>
-            <h1>{title}</h1>
-            <div className="border-b-[3px]  border-[#008ebe] w-[200px] my-2"></div>
-          </div>
+      <Card className="relative overflow-hidden bg-transparent rounded-[50px] text-white h-full">
+        <BgImage bgImg={imgSrc} alt={alt} />
+        <CardContent className="flex flex-col  justify-end border h-full">
+          <CardTitle className="flex flex-col gap-1">
+            <div>
+              <h1>{title}</h1>
+              <div className="border-b-[3px]  border-[#008ebe] w-[200px] my-2"></div>
+            </div>
+          </CardTitle>
           <CardDescription className="text-white font-thin line-clamp-3">
             {description}
+            <span>{date}</span>
+            <div>
+              <Button
+                variant="outline"
+                className="bg-inherit rounded-[60px] text-xs font-thin"
+              >
+                Read More
+              </Button>
+            </div>
           </CardDescription>
-          <span>{date}</span>
-          <div>
-            <Button
-              variant="outline"
-              className="bg-inherit rounded-[60px] text-xs font-thin"
-            >
-              Read More
-            </Button>
-          </div>
-        </CardTitle>
+        </CardContent>
       </Card>
-      <div></div>
     </>
   );
 }

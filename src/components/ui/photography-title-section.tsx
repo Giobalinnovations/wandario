@@ -8,7 +8,7 @@ import LinkButton from './link-button';
 export default function PhotographyTitleSection() {
   return (
     <>
-      <div className="flex justify-between  ">
+      <div className="flex flex-col gap-5 lg:flex-row justify-between">
         <div className="max-w-lg">
           <h2 className="text-3xl font-bold ">Photography</h2>
           <div className="border-b-[3px]  border-[#008ebe] w-[20%] my-2"></div>

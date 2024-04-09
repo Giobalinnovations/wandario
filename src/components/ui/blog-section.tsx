@@ -14,31 +14,35 @@ export default function BlogSection() {
           <div className="border-b-[3px]   border-[#008ebe] w-[90px] my-2"></div>
         </div>
 
-        <div className="flex gap-3 flex-col   min-[960px]:flex-row items-center  ">
-          <CardBlog
-            imgSrc={cardBlog1}
-            alt="card blog image1"
-            title="Card 1"
-            description="Lorem Ipsum is simply dummy text of the
+        <div className="flex gap-3 flex-col  md:flex-row">
+          <div className="w-full flex h-[450px] md:min-h-[450px]">
+            <CardBlog
+              imgSrc={cardBlog1}
+              alt="card blog image1"
+              title="Card 1"
+              description="Lorem Ipsum is simply dummy text of the
 printing and typesetting industry. Lorem
 Ipsum has been the industry's standard
 dummy text ever since the 1500s, when
 an unknown printer took a galley"
-            date="February 9, 2024"
-            continentsTitle="ASIA"
-          />
+              date="February 9, 2024"
+              continentsTitle="ASIA"
+            />
+          </div>
 
-          <CardBlog
-            imgSrc={cardBlog2}
-            alt="card blog image1"
-            title="Card 2"
-            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+          <div className="w-full h-[450px] md:h-auto">
+            <CardBlog
+              imgSrc={cardBlog2}
+              alt="card blog image1"
+              title="Card 2"
+              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
         Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
-            date="February 9, 2024"
-            continentsTitle="Europe"
-          />
+              date="February 9, 2024"
+              continentsTitle="Europe"
+            />
+          </div>
           {/* card 3-4 */}
-          <div className="flex flex-col gap-2 ">
+          <div className="flex flex-col gap-2 h-[450px] md:h-auto">
             <CardBlog
               imgSrc={cardBlog3}
               alt="card blog image1"
