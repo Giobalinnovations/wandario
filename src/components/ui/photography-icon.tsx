@@ -8,7 +8,7 @@ import { Card } from './card';
 export default function PhotographyIcon() {
   return (
     <>
-      <div className="pt-7 pb-14 rounded-[50px] flex flex-col gap-24 text-white  h-full bg-[url('/assets/images/photography-icon/photography-bg.png')]  bg-no-repeat px-12 border border-red-300">
+      <div className="pt-7 pb-14 rounded-[30px] object-fill flex flex-col gap-24 text-white  h-full bg-[url('/assets/images/photography-icon/photo-image-bg.jpg')]  bg-no-repeat px-12 border border-red-300">
         <PhotographyTitleSection />
         <div className="grid justify-center gap-5 sm:grid-cols-2 lg:grid-cols-4 ">
           <CardIcon
