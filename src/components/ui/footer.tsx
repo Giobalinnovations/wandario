@@ -47,7 +47,7 @@ export default function Footer() {
               <Link href={'#'}>Contact Us</Link>
             </div>
             <div className="flex flex-col gap-[50px] ">
-              <aside className="flex  items-start gap-8">
+              <aside className="flex flex-col md:flex-row items-start gap-8">
                 {/* web stories */}
                 <div>
                   <h1 className="text-[22px] font-[700]">Web Stories</h1>
@@ -101,7 +101,7 @@ export default function Footer() {
               </aside>
               {/* search bar */}
               <div>
-                <h1 className="mb-4 font-[700] text-[22px]">
+                <h1 className="mb-4 font-[700] text-lg md:text-[22px]">
                   Subscribe To Our Newsletter
                 </h1>
                 <form className="flex relative ">
@@ -109,11 +109,11 @@ export default function Footer() {
                     type="search"
                     id="search"
                     placeholder="Enter email id"
-                    className="w-[484px] h-[50px] border bg-transparent   rounded-[100px] px-3"
+                    className="max-w-[484px] h-[50px] border bg-transparent   rounded-[100px] px-3"
                   />
                   <button
                     type="submit"
-                    className="absolute right-0  w-[162px] h-[50px] bg-[#ffff] rounded-[100px] font-[600] text-[18px] text-[#008EBE]"
+                    className="absolute right-0 px-5  max-w-[162px] h-[50px] bg-[#ffff] rounded-[100px] font-[600] text-[18px] text-[#008EBE]"
                   >
                     Subscribe
                   </button>
