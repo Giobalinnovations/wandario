@@ -1,6 +1,7 @@
 import {
   dishImg,
   foodImg,
+  footerBg,
   instagramIcon,
   logo,
   placesImg,
@@ -11,10 +12,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Section from './section';
 import Wrapper from './wrapper';
+import BgImage from './bg-image';
 
 export default function Footer() {
   return (
-    <footer className="bg-[url(../../public/assets/images/footer/footer-bg.png)] object-cover bg-no-repeat  text-white">
+    <footer className="relative text-white">
+      <BgImage bgImg={footerBg} alt="footer bg" />
       <Section>
         <Wrapper>
           <div className="flex  flex-wrap  items-start lg:flex justify-between">

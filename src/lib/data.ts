@@ -9,6 +9,10 @@ import {
   cardIcon2,
   cardIcon3,
   cardIcon4,
+  packingGuideImg,
+  tipsForPlanningImg,
+  travelActivityGuidesImg,
+  travelSafetyAdviceImg,
 } from '@/lib/images';
 
 export const continents = [
@@ -68,5 +72,28 @@ export const photographyData = [
     title:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     alt: 'card icon 4',
+  },
+];
+
+export const travelGuidesData = [
+  {
+    imgSrc: tipsForPlanningImg,
+    title: 'Tips for planning trips',
+    alt: 'tips for planning',
+  },
+  {
+    imgSrc: packingGuideImg,
+    title: 'Packing guides',
+    alt: 'packing guides',
+  },
+  {
+    imgSrc: travelSafetyAdviceImg,
+    title: 'Travel safety advice',
+    alt: 'travel safety advice ',
+  },
+  {
+    imgSrc: travelActivityGuidesImg,
+    title: 'Travel Activity Guides ',
+    alt: 'travel activity guides',
   },
 ];

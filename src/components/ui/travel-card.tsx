@@ -26,9 +26,7 @@ export default function TravelCard({ imgSrc, title, alt }: TravelCardProps) {
           </div>
         </Card>
 
-        <div>
-          <p className="font-bold my-5">{title}</p>
-        </div>
+        <p className="font-bold my-5 text-center">{title}</p>
       </div>
     </>
   );
