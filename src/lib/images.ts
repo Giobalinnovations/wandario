@@ -72,6 +72,7 @@ import cardCommunitybg from '../../public/assets/images/card-hotel/communtiy-bg.
 import starIcon from '../../public/assets/images/card-hotel/star-icon.png';
 import locationhotelIcon from '../../public/assets/images/card-hotel/location-icon.png';
 import equipmentImg from '../../public/assets/images/card-image2/equipment.png';
+import photoGraphyBgImg from '../../public/assets/images/photography-icon/photo-image-bg.jpg';
 export {
   logo,
   northAmericaImg,
@@ -146,4 +147,5 @@ export {
   cardCommunityImg,
   cardCommunitybg,
   equipmentImg,
+  photoGraphyBgImg,
 };
