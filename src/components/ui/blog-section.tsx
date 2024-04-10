@@ -8,7 +8,7 @@ import { cardBlog1, cardBlog2, cardBlog3, cardBlog4 } from '@/lib/images';
 export default function BlogSection() {
   return (
     <>
-      <div className="container">
+      <div>
         <div className="flex items-center mb-7 flex-col">
           <h1 className="font-bold text-[32px]">News & Blogs</h1>
           <div className="border-b-[3px]   border-[#008ebe] w-[90px] my-2"></div>

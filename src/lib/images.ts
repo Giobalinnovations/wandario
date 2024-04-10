@@ -24,6 +24,7 @@ import cardBlog4 from '../../public/assets/images/blog-section/card-blog-4.png';
 import aboutImg1 from '../../public/assets/images/about-image/about-img1.png';
 import aboutImg2 from '../../public/assets/images/about-image/about-img2.png';
 import missionImg from '../../public/assets/images/about-image/mission-vision-img/mission-img.png';
+import FrquentlyBgImg from '../../public/assets/images/frequently-bg.png';
 import visionImg from '../../public/assets/images/about-image/mission-vision-img/vision-img.png';
 import guideCardImg1 from '../../public/assets/images/about-image/guideline-image/guide-cardimg1.png';
 import guideCardImg2 from '../../public/assets/images/about-image/guideline-image/guide-cardimg2.png';
@@ -148,4 +149,5 @@ export {
   cardCommunitybg,
   equipmentImg,
   photoGraphyBgImg,
+  FrquentlyBgImg,
 };
