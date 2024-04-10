@@ -78,6 +78,8 @@ import cardCuisineImg1 from '../../public/assets/images/card-image2/card-cuisne-
 import cardCuisineImg2 from '../../public/assets/images/card-image2/card-cuisne-2.jpg';
 import cardCuisineImg3 from '../../public/assets/images/card-image2/card-cuisne-3.jpg';
 import cardCuisineImg4 from '../../public/assets/images/card-image2/card-cuisne-4.jpg';
+import image1 from '../../public/assets/images/card-image2/image-1.png';
+import image2 from '../../public/assets/images/card-image2/image-2.png';
 export {
   logo,
   northAmericaImg,
@@ -158,4 +160,6 @@ export {
   cardCuisineImg2,
   cardCuisineImg3,
   cardCuisineImg4,
+  image1,
+  image2,
 };

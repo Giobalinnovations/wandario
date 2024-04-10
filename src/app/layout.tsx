@@ -41,7 +41,7 @@ export default function RootLayout({
       <body
         className={`${montserrat.className} antialiased flex flex-col min-h-screen`}
       >
-        {/* <HeroNav /> */}
+        <HeroNav />
         {children}
         <Footer />
       </body>

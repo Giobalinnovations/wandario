@@ -1,14 +1,15 @@
+import { Card, CardTitle } from '@/components/ui/card';
 import Image, { StaticImageData } from 'next/image';
 
-type ImageCardProps = {
+type CardImgProps = {
   imgSrc: StaticImageData;
   alt: string;
 };
 
-export default function ImageCard({ imgSrc, alt }: ImageCardProps) {
+export default function CardImg({ imgSrc, alt }: CardImgProps) {
   return (
     <>
-      <div className="relative overflow-hidden w-full">
+      <div className="relative overflow-hidden">
         <Image src={imgSrc} alt={alt} className="object-cover" />
       </div>
     </>

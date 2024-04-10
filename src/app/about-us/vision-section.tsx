@@ -20,7 +20,7 @@ export default function VisionSection({
   return (
     <>
       <section>
-        <div className="flex  items-center  justify-center gap-44 mt-11">
+        <div className="flex flex-col items-center justify-between lg:flex-row mt-11">
           <div className="flex flex-col gap-2 basis-[28%] ">
             <div>
               <h2 className="font-bold text-3xl">{title}</h2>
