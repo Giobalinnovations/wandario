@@ -23,7 +23,7 @@ export default function CardBlog({
   title,
   description,
   date,
-  continentsTitle,
+
   imgSrc,
   alt,
 }: CardBlogProps) {

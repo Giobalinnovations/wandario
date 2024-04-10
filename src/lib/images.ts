@@ -74,6 +74,10 @@ import starIcon from '../../public/assets/images/card-hotel/star-icon.png';
 import locationhotelIcon from '../../public/assets/images/card-hotel/location-icon.png';
 import equipmentImg from '../../public/assets/images/card-image2/equipment.png';
 import photoGraphyBgImg from '../../public/assets/images/photography-icon/photo-image-bg.jpg';
+import cardCuisineImg1 from '../../public/assets/images/card-image2/card-cuisne-1.jpg';
+import cardCuisineImg2 from '../../public/assets/images/card-image2/card-cuisne-2.jpg';
+import cardCuisineImg3 from '../../public/assets/images/card-image2/card-cuisne-3.jpg';
+import cardCuisineImg4 from '../../public/assets/images/card-image2/card-cuisne-4.jpg';
 export {
   logo,
   northAmericaImg,
@@ -150,4 +154,8 @@ export {
   equipmentImg,
   photoGraphyBgImg,
   FrquentlyBgImg,
+  cardCuisineImg1,
+  cardCuisineImg2,
+  cardCuisineImg3,
+  cardCuisineImg4,
 };
