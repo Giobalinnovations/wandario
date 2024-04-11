@@ -1,5 +1,7 @@
 import React from 'react';
 import CountriesSection from './countries-section';
+import { RiArrowRightSLine } from 'react-icons/ri';
+
 import {
   rightArrow,
   northAmericaAvtar,
@@ -13,69 +15,58 @@ import {
 } from '@/lib/images';
 import { title } from 'process';
 import AvtarImage from './avtar-image';
-import CountriesList from './countries-list';
+
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import CountriesList from './countries-list';
 
 export default function CountriesContinents() {
   return (
     <>
-      <div>
+      <div className="mb-14">
         <h2 className="font-bold text-3xl">Explore By Countries</h2>
-        <div className="border-b-[3px]  border-[#008ebe] w-[200px] my-2"></div>
+        <div className="border-b-[3px]  border-[#008ebe] max-w-[200px] my-2"></div>
       </div>
-      <section className="flex flex-col   min-[960px]:flex-row justify-between">
-        <div className="flex flex-col gap-4">
-          <div className="flex w-full items-center flex-shrink-0 min-[960px]: gap-4">
+      <section className="flex flex-col gap-5 justify-center lg:flex-row  ">
+        <div className="flex flex-col justify-center items-center gap-6">
+          <div className=" flex items-center  w-full  gap-4 ">
             <AvtarImage imgSrc={northAmericaAvtar} alt="north america" />
-            <CountriesSection
-              title="NORTH AMERICA"
-              imgSrc={rightArrow}
-              alt="right arrow"
-            />
+            <CountriesSection title="NORTH AMERICA">
+              <RiArrowRightSLine className="text-3xl" />
+            </CountriesSection>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center  w-full gap-4">
             <AvtarImage imgSrc={europeAvtar} alt="north america" />
-            <CountriesSection
-              title="EUROPE"
-              imgSrc={rightArrow}
-              alt="right arrow"
-            />
+            <CountriesSection title="EUROPE">
+              <RiArrowRightSLine className="text-3xl" />
+            </CountriesSection>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center w-full gap-4">
             <AvtarImage imgSrc={asiaAvtar} alt="north america" />
-            <CountriesSection
-              title="ASIA"
-              imgSrc={rightArrow}
-              alt="right arrow"
-            />
+            <CountriesSection title="ASIA">
+              <RiArrowRightSLine className="text-3xl" />
+            </CountriesSection>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center w-full gap-4">
             <AvtarImage imgSrc={africaAvtar} alt="north america" />
-            <CountriesSection
-              title="AFRICA"
-              imgSrc={rightArrow}
-              alt="right arrow"
-            />
+            <CountriesSection title="AFRICA">
+              <RiArrowRightSLine className="text-3xl" />
+            </CountriesSection>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center w-full gap-4">
             <AvtarImage imgSrc={southAvtar} alt="north america" />
-            <CountriesSection
-              title="SOUTH AMERICA"
-              imgSrc={rightArrow}
-              alt="right arrow"
-            />
+            <CountriesSection title="SOUTH AMERICA">
+              <RiArrowRightSLine className="text-3xl" />
+            </CountriesSection>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center  w-full gap-4">
             <AvtarImage imgSrc={australiaAvtar} alt="north america" />
-            <CountriesSection
-              title="AUSTRALIA"
-              imgSrc={rightArrow}
-              alt="right arrow"
-            />
+            <CountriesSection title="AUSTRALIA">
+              <RiArrowRightSLine className="text-3xl" />
+            </CountriesSection>
           </div>
         </div>
 
-        <div className="w-[700px] mt-9 min-[960px]:  ">
+        <div className="flex-1">
           <Card>
             <CardHeader>
               <CardTitle>

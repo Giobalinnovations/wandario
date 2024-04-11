@@ -80,6 +80,7 @@ import cardCuisineImg3 from '../../public/assets/images/card-image2/card-cuisne-
 import cardCuisineImg4 from '../../public/assets/images/card-image2/card-cuisne-4.jpg';
 import image1 from '../../public/assets/images/card-image2/image-1.png';
 import image2 from '../../public/assets/images/card-image2/image-2.png';
+import guideImgBg from '../../public/assets/images/destination-countries/north-america/guide-bg.png';
 export {
   logo,
   northAmericaImg,
@@ -162,4 +163,5 @@ export {
   cardCuisineImg4,
   image1,
   image2,
+  guideImgBg,
 };
