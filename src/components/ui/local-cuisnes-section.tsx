@@ -1,5 +1,10 @@
 'use client';
-import { cardCuisineImg1 } from '@/lib/images';
+import {
+  cardCuisineImg1,
+  cardCuisineImg2,
+  cardCuisineImg3,
+  cardCuisineImg4,
+} from '@/lib/images';
 import LocalCuisinesCard from './local-cuisnes-card';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -10,21 +15,44 @@ export default function LocalCuisnesSection() {
       <div>
         <Swiper
           spaceBetween={5}
-          slidesPerView={4}
+          slidesPerView={3}
           onSlideChange={() => console.log('slide change')}
           onSwiper={swiper => console.log(swiper)}
         >
-          {Array.from({ length: 4 }, (_, index) => (
-            <SwiperSlide key={index}>
+          <div>
+            <SwiperSlide>
               <LocalCuisinesCard
                 title="ASIA"
                 imgSrc={cardCuisineImg1}
                 alt="card cuisne 1"
                 description="Lorem Ipsum is simply dummy text of the printing and"
-                link="#"
               />
             </SwiperSlide>
-          ))}
+            <SwiperSlide>
+              <LocalCuisinesCard
+                title="ASIA"
+                imgSrc={cardCuisineImg2}
+                alt="card cuisne 1"
+                description="Lorem Ipsum is simply dummy text of the printing and"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <LocalCuisinesCard
+                title="ASIA"
+                imgSrc={cardCuisineImg3}
+                alt="card cuisne 1"
+                description="Lorem Ipsum is simply dummy text of the printing and"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <LocalCuisinesCard
+                title="ASIA"
+                imgSrc={cardCuisineImg4}
+                alt="card cuisne 1"
+                description="Lorem Ipsum is simply dummy text of the printing and"
+              />
+            </SwiperSlide>
+          </div>
         </Swiper>
       </div>
     </>

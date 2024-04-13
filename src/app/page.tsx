@@ -32,11 +32,11 @@ export default function Home() {
           <CardImage2 imgSrc={cardImg1} alt="cardImg1" />
         </Wrapper>
       </Section>
-      {/* <Section>
+      <Section>
         <Wrapper>
           <LocalCuisnesSection />
         </Wrapper>
-      </Section> */}
+      </Section>
 
       {/* travel guide section */}
       <Section>
