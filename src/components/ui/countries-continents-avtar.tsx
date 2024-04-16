@@ -1,25 +1,21 @@
-import React from 'react';
-import CountriesSection from './countries-section';
 import { RiArrowRightSLine } from 'react-icons/ri';
 
 import {
-  rightArrow,
   northAmericaAvtar,
   europeAvtar,
   asiaAvtar,
   africaAvtar,
-  southAmericaImg,
   australiaAvtar,
   southAvtar,
   locationIcon,
 } from '@/lib/images';
-import { title } from 'process';
-import AvtarImage from './avtar-image';
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import CountriesList from './countries-list';
+import CountriesSection from '@/app/destinations/countries-section';
+import AvtarImage from './avtar-image';
+import CountriesList from '@/app/destinations/countries-list';
 
-export default function CountriesContinents() {
+export default function CountriesContinentsAvtar() {
   return (
     <>
       <div className="mb-14">

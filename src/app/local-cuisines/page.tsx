@@ -1,11 +1,11 @@
 import Section from '@/components/ui/section';
-import Wrapper from '../../components/ui/wrapper';
-import PopularSection from './popular-section';
-import TripPlanningSection from './trip-planning-section';
+import Wrapper from '@/components/ui/wrapper';
+import PopularSection from '../destinations/popular-section';
+import TripPlanningSection from '../destinations/trip-planning-section';
 import BlogSection from '@/components/ui/blog-section';
 import CountriesContinentsAvtar from '@/components/ui/countries-continents-avtar';
 
-export default function Destinations() {
+export default function LocalCuisinesHome() {
   return (
     <>
       <Section>

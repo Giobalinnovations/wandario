@@ -1,6 +1,5 @@
 import React from 'react';
 import CardCountries from './card-countries';
-import { Button } from '@/components/ui/button';
 import {
   canadaImg,
   mexicoImg,

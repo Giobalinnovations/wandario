@@ -26,7 +26,6 @@ Ipsum has been the industry's standard
 dummy text ever since the 1500s, when
 an unknown printer took a galley"
               date="February 9, 2024"
-              continentsTitle="ASIA"
             />
           </div>
 
@@ -38,7 +37,6 @@ an unknown printer took a galley"
               description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
         Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
               date="February 9, 2024"
-              continentsTitle="Europe"
             />
           </div>
           {/* card 3-4 */}
@@ -50,7 +48,6 @@ an unknown printer took a galley"
               description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                   dummy text ever since the 1500s, when an unknown printer took a galley"
               date="February 9, 2024"
-              continentsTitle="Africa"
             />
             <CardBlog
               imgSrc={cardBlog4}
@@ -62,8 +59,6 @@ Ipsum has been the industry's standard
 dummy text ever since the 1500s, when
 an unknown printer took a galley"
               date="February 9, 2024"
-              continentsTitle="SOUTH
-AMERICA"
             />
           </div>
         </div>

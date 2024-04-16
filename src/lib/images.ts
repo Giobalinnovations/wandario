@@ -81,6 +81,11 @@ import cardCuisineImg4 from '../../public/assets/images/card-image2/card-cuisne-
 import image1 from '../../public/assets/images/card-image2/image-1.png';
 import image2 from '../../public/assets/images/card-image2/image-2.png';
 import guideImgBg from '../../public/assets/images/destination-countries/north-america/guide-bg.png';
+import cardStayingImg1 from '../../public/assets/images/blog-section/card-staying-img1.png';
+import cardStayingImg2 from '../../public/assets/images/blog-section/card-staying-img2.png';
+import cardStayingImg3 from '../../public/assets/images/blog-section/card-staying-img3.png';
+import cardStayingImg4 from '../../public/assets/images/blog-section/card-staying-img4.png';
+import cardStayingImg5 from '../../public/assets/images/blog-section/card-staying-img5.png';
 export {
   logo,
   northAmericaImg,
@@ -164,4 +169,9 @@ export {
   image1,
   image2,
   guideImgBg,
+  cardStayingImg1,
+  cardStayingImg2,
+  cardStayingImg3,
+  cardStayingImg4,
+  cardStayingImg5,
 };
