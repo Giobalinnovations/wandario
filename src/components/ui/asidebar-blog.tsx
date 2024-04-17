@@ -12,10 +12,10 @@ import CardAnimal from './card-animal';
 export default function AsidebarBlog() {
   return (
     <>
-      <aside>
+      <aside className="bg-white p-4 rounded-[30px]">
         <div>
           <Image src={asideImg} alt="animal" className="object-cover" />
-          <form className=" relative border rounded-[80px]">
+          <form className=" relative border rounded-[80px] my-3">
             <div className="flex items-center justify-center">
               <GoSearch className="absolute left-2 text-[#008EBE] font-bold" />
               <input
@@ -37,27 +37,31 @@ export default function AsidebarBlog() {
               <h1 className="text-[26px] font-medium">Stay Connected</h1>
               <div className="border-b-[3px]  border-[#008ebe] w-[210px] my-2"></div>
             </div>
-            <div className="flex flex-wrap gap-5">
-              <div className="w-[40px] h-[40px] text-[24px] bg-white  rounded-[50%] text-[#008EBE]  border-[#008EBE] flex items-center justify-center">
+            <div className="flex flex-wrap gap-2">
+              <div className="w-[40px] h-[40px] text-[24px]  rounded-[50%] text-[#008EBE] border border-[#008EBE] flex items-center justify-center">
                 <FaFacebookF />
               </div>
 
-              <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-[#008EBE]  border-[#008EBE] flex items-center justify-center">
+              <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-[#008EBE] border border-[#008EBE] flex items-center justify-center">
                 <IoLogoInstagram />
               </div>
-              <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-[#008EBE]  border-[#008EBE]  flex items-center justify-center">
+              <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-[#008EBE] border  border-[#008EBE]  flex items-center justify-center">
                 <FaLinkedinIn />
               </div>
-              <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-[#008EBE]  border-[#008EBE] flex items-center justify-center">
+              <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-[#008EBE] border border-[#008EBE] flex items-center justify-center">
                 <FaXTwitter />
               </div>
-              <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-[#008EBE]  border-[#008EBE]  flex items-center justify-center">
+              <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-[#008EBE] border border-[#008EBE]  flex items-center justify-center">
                 <FaPinterestP />
               </div>
             </div>
           </div>
         </div>
-        {/* <div>
+        <div className="">
+          <div>
+            <h1 className="text-[26px] font-medium">Hot Topics</h1>
+            <div className="border-b-[3px]  border-[#008ebe] w-[140px] my-2"></div>
+          </div>
           <CardAnimal
             imgSrc={cardAnimalImg1}
             title="Meet The Animals Of Lion King In Real Life"
@@ -90,7 +94,7 @@ export default function AsidebarBlog() {
             time="00/00 am"
             comments="Comments (12)"
           />
-        </div> */}
+        </div>
       </aside>
     </>
   );

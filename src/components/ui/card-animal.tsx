@@ -23,11 +23,11 @@ export default function CardAnimal({
     <>
       <div className="flex items-center gap-3">
         <Image src={imgSrc} alt="animal" className="object-cover" />
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 ">
           <h1 className="text-2xl font-extrabold">{title}</h1>
           <p>{paragraph}</p>
           <div className="border-b-[3px]  border-[#008ebe] w-full my-2"></div>
-          <div className="flex italic gap-3 items-center">
+          <div className="flex italic gap-2 items-center">
             <span className="flex items-center gap-2">
               <div className="w-7 h-7 text-[#008ebe] rounded-[8px] border bg-white flex justify-center items-center">
                 <FaCalendarDays className="" />

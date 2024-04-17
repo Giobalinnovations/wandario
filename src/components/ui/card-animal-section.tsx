@@ -6,7 +6,7 @@ import AsidebarBlog from './asidebar-blog';
 export default function CardAnimalSection() {
   return (
     <>
-      <div className="flex">
+      <div className="flex gap-4">
         <div className="flex flex-col gap-6">
           <CardAnimal
             imgSrc={cardAnimalImg1}

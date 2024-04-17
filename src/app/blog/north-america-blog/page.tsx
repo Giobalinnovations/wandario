@@ -17,6 +17,21 @@ export default function NorthAmericaBlog() {
           <CardBlogAmericaCanadaSection />
         </Wrapper>
       </Section>
+      <Section>
+        <Wrapper>
+          <CardBlogAmericaCanadaSection />
+        </Wrapper>
+      </Section>
+      <Section>
+        <Wrapper>
+          <CardBlogAmericaCanadaSection />
+        </Wrapper>
+      </Section>
+      <Section>
+        <Wrapper>
+          <CardBlogAmericaCanadaSection />
+        </Wrapper>
+      </Section>
     </>
   );
 }

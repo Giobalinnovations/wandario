@@ -25,10 +25,12 @@ export default function CardImgBlog2({
   return (
     <>
       <Card className="relative overflow-hidden text-white rounded-[40px] ">
-        <Image src={bgImgSrc} alt={alt} className="w-full h-full" />
-        <CardContent className="absolute bottom-0  left-0 flex flex-col gap-3 ">
+        <Image src={bgImgSrc} alt={alt} className="object-cover" />
+        <CardContent className="absolute bottom-0  left-0 flex flex-col gap-2 pt-20">
           <span className="pt-96">{date}</span>
-          <CardTitle className="font-[800] text-3xl">{title}</CardTitle>
+          <CardTitle className="font-[800] text-2xl">
+            <h1>{title}</h1>
+          </CardTitle>
           <CardDescription className="text-white">
             {description}
           </CardDescription>
