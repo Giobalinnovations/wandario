@@ -2,7 +2,6 @@ import {
   dishImg,
   foodImg,
   footerBg,
-  instagramIcon,
   logo,
   placesImg,
   soloTripsImg,

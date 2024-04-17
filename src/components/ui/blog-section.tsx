@@ -2,7 +2,7 @@ import { Button } from './button';
 import CardBlog from './card-blog';
 
 import React from 'react';
-import Image from 'next/image';
+
 import { cardBlog1, cardBlog2, cardBlog3, cardBlog4 } from '@/lib/images';
 
 export default function BlogSection() {

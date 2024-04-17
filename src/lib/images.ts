@@ -86,6 +86,13 @@ import cardStayingImg2 from '../../public/assets/images/blog-section/card-stayin
 import cardStayingImg3 from '../../public/assets/images/blog-section/card-staying-img3.png';
 import cardStayingImg4 from '../../public/assets/images/blog-section/card-staying-img4.png';
 import cardStayingImg5 from '../../public/assets/images/blog-section/card-staying-img5.png';
+import northAmericaBlogCanadaImg1 from '../../public/assets/images/blog-section/north-america-blog-canada-img1.png';
+import northAmericaBlogCanadaImg2 from '../../public/assets/images/blog-section/north-america-blog-canada-img2.png';
+import northAmericaBlogCanadaImg3 from '../../public/assets/images/blog-section/north-america-blog-canada-img3.png';
+import cardAnimalImg1 from '../../public/assets/images/blog-section/card-animal-img1.png';
+import cardAnimalImg2 from '../../public/assets/images/blog-section/card-animal-img2.png';
+import cardAnimalImg3 from '../../public/assets/images/blog-section/card-animal-img3.png';
+import asideImg from '../../public/assets/images/blog-section/aside-img.png';
 export {
   logo,
   northAmericaImg,
@@ -174,4 +181,11 @@ export {
   cardStayingImg3,
   cardStayingImg4,
   cardStayingImg5,
+  northAmericaBlogCanadaImg1,
+  northAmericaBlogCanadaImg2,
+  northAmericaBlogCanadaImg3,
+  cardAnimalImg1,
+  cardAnimalImg2,
+  cardAnimalImg3,
+  asideImg,
 };
