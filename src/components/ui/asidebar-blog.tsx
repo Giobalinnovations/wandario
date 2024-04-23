@@ -12,7 +12,7 @@ import CardAnimal from './card-animal';
 export default function AsidebarBlog() {
   return (
     <>
-      <aside className="bg-white p-4 rounded-[30px]">
+      <aside className="bg-white p-4 rounded-[30px] line-clamp-1	">
         <div>
           <Image src={asideImg} alt="animal" className="object-cover" />
           <form className=" relative border rounded-[80px] my-3">
