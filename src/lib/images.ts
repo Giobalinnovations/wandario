@@ -93,6 +93,8 @@ import cardAnimalImg1 from '../../public/assets/images/blog-section/card-animal-
 import cardAnimalImg2 from '../../public/assets/images/blog-section/card-animal-img2.png';
 import cardAnimalImg3 from '../../public/assets/images/blog-section/card-animal-img3.png';
 import asideImg from '../../public/assets/images/blog-section/aside-img.png';
+import meerkatImg from '../../public/assets/images/blog-section/meerkat-img.png';
+import LionImg from '../../public/assets/images/blog-section/lion-img.png';
 export {
   logo,
   northAmericaImg,
@@ -188,4 +190,6 @@ export {
   cardAnimalImg2,
   cardAnimalImg3,
   asideImg,
+  meerkatImg,
+  LionImg,
 };
