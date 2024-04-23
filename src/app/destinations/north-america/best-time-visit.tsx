@@ -5,7 +5,7 @@ import { cardImg2 } from '@/lib/images';
 export default function BestTimeVisit() {
   return (
     <>
-      <div className="flex items-center gap-8">
+      <div className="flex flex-col items-center  gap-8 lg:flex-row">
         <ContinentsTitleImage
           title="Best Time To Visit!"
           paragraph1="Lorem Ipsum is simply dummy text of the printing

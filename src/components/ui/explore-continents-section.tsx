@@ -19,7 +19,7 @@ export default function ExploreContinentsSection({
 }: ExploreContinentsSectionProps) {
   return (
     <>
-      <div className="flex gap-5 justify-center ">
+      <div className="flex flex-col gap-5 justify-center lg:flex-row">
         <div className="flex flex-col gap-2 basis-[43%] overflow-hidden ">
           <div>
             <h2 className="font-bold text-3xl">{title}</h2>
@@ -29,7 +29,7 @@ export default function ExploreContinentsSection({
           <p>{paragraph2}</p>
         </div>
 
-        <div className="flex gap-4 ">
+        <div className="flex justify-center gap-4 ">
           <Image src={imgSrc} alt={alt} className="mb-28" />
           <Image src={imgSrc2} alt={alt} className="mt-28" />
         </div>

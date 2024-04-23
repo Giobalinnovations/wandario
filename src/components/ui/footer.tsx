@@ -2,7 +2,6 @@ import {
   dishImg,
   foodImg,
   footerBg,
-  instagramIcon,
   logo,
   placesImg,
   soloTripsImg,
@@ -13,6 +12,11 @@ import Link from 'next/link';
 import Section from './section';
 import Wrapper from './wrapper';
 import BgImage from './bg-image';
+import { FaFacebookF } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa6';
+import { FaXTwitter } from 'react-icons/fa6';
+import { FaPinterestP } from 'react-icons/fa';
+import { IoLogoInstagram } from 'react-icons/io5';
 
 export default function Footer() {
   return (
@@ -26,11 +30,24 @@ export default function Footer() {
               <div>
                 <Logo imgSrc={logo} />
               </div>
-              <p className="w-[377px]">{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley`}</p>
+              <p className="max-w-[377px]">{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley`}</p>
 
-              <div>
-                <div className="w-[42px] h-[42px] rounded-[50%] border flex items-center justify-center">
-                  <Image src={instagramIcon} alt="logo" />
+              <div className="flex flex-wrap gap-5">
+                <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-black border flex items-center justify-center">
+                  <FaFacebookF />
+                </div>
+
+                <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-black border flex items-center justify-center">
+                  <IoLogoInstagram />
+                </div>
+                <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-black border flex items-center justify-center">
+                  <FaLinkedinIn />
+                </div>
+                <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-black border flex items-center justify-center">
+                  <FaXTwitter />
+                </div>
+                <div className="w-[40px] h-[40px] text-[24px] bg-white rounded-[50%] text-black border flex items-center justify-center">
+                  <FaPinterestP />
                 </div>
               </div>
             </div>

@@ -13,8 +13,8 @@ import BgImage from './bg-image';
 type CardBlogProps = {
   title: string;
   description: string;
-  date: string;
-  continentsTitle?: string;
+  date?: string;
+
   alt: string;
   imgSrc: StaticImageData;
 };
@@ -23,15 +23,16 @@ export default function CardBlog({
   title,
   description,
   date,
-  continentsTitle,
+
   imgSrc,
   alt,
 }: CardBlogProps) {
   return (
     <>
-      <Card className="relative overflow-hidden bg-transparent rounded-[50px] text-white h-full">
+      <Card className="relative overflow-hidden bg-transparent  opacity-50s  rounded-[30px] text-white h-full">
         <BgImage bgImg={imgSrc} alt={alt} />
-        <CardContent className="flex flex-col  justify-end border h-full">
+        <div className="bg-gradient-to-b from-transparent to-black absolute top-0 left-0 h-full w-full bg-opacity-50 -z-[1]"></div>
+        <CardContent className="flex flex-col py-12 justify-end border h-full z-10">
           <CardTitle className="flex flex-col gap-1">
             <div>
               <h1>{title}</h1>

@@ -8,8 +8,8 @@ type ImageCardProps = {
 export default function ImageCard({ imgSrc, alt }: ImageCardProps) {
   return (
     <>
-      <div className="w-[760px] h-[710px]">
-        <Image src={imgSrc} alt={alt} />
+      <div className="relative overflow-hidden w-full">
+        <Image src={imgSrc} alt={alt} className="object-cover" />
       </div>
     </>
   );

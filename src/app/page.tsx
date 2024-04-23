@@ -8,16 +8,11 @@ import NavBar2 from '@/components/ui/navbar2';
 import CardImage2 from '@/components/ui/card-image2';
 import TravelContinents from '@/components/ui/travel-continents';
 import FrequentlySection from '@/components/ui/frequently-section';
+import LocalCuisnesSection from '@/components/ui/local-cuisnes-section';
 
 export default function Home() {
   return (
     <>
-      {/* <Section>
-        <Wrapper>
-          <NavBar2 />
-        </Wrapper>
-      </Section> */}
-
       {/* <Hero /> */}
       <Section>
         <Wrapper>
@@ -35,6 +30,11 @@ export default function Home() {
       <Section>
         <Wrapper>
           <CardImage2 imgSrc={cardImg1} alt="cardImg1" />
+        </Wrapper>
+      </Section>
+      <Section>
+        <Wrapper>
+          <LocalCuisnesSection />
         </Wrapper>
       </Section>
 

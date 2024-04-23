@@ -1,6 +1,5 @@
 import React from 'react';
 import CardCountries from './card-countries';
-import { Button } from '@/components/ui/button';
 import {
   canadaImg,
   mexicoImg,
@@ -13,7 +12,7 @@ export default function CardCountriesSection() {
   return (
     <>
       <TitleTop title="Explore By Countries" />
-      <section className="flex gap-5">
+      <section className="grid sm:grid-cols-2 gap-5  lg:grid-cols-4 ">
         <CardCountries
           imgSrc={canadaImg}
           alt="Canada"

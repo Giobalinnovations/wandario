@@ -7,7 +7,7 @@ import ImageCard from '@/components/ui/image-card';
 export default function KnowBeforeSection() {
   return (
     <>
-      <div className="flex items-center gap-8">
+      <div className="flex flex-col items-center  gap-8 lg:flex-row">
         <ImageCard imgSrc={cardImg1} alt="Card Image" />
         <ContinentsTitleImage
           title="Know Before You Go!"

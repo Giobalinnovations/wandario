@@ -24,6 +24,7 @@ import cardBlog4 from '../../public/assets/images/blog-section/card-blog-4.png';
 import aboutImg1 from '../../public/assets/images/about-image/about-img1.png';
 import aboutImg2 from '../../public/assets/images/about-image/about-img2.png';
 import missionImg from '../../public/assets/images/about-image/mission-vision-img/mission-img.png';
+import FrquentlyBgImg from '../../public/assets/images/frequently-bg.png';
 import visionImg from '../../public/assets/images/about-image/mission-vision-img/vision-img.png';
 import guideCardImg1 from '../../public/assets/images/about-image/guideline-image/guide-cardimg1.png';
 import guideCardImg2 from '../../public/assets/images/about-image/guideline-image/guide-cardimg2.png';
@@ -73,6 +74,25 @@ import starIcon from '../../public/assets/images/card-hotel/star-icon.png';
 import locationhotelIcon from '../../public/assets/images/card-hotel/location-icon.png';
 import equipmentImg from '../../public/assets/images/card-image2/equipment.png';
 import photoGraphyBgImg from '../../public/assets/images/photography-icon/photo-image-bg.jpg';
+import cardCuisineImg1 from '../../public/assets/images/card-image2/card-cuisne-1.jpg';
+import cardCuisineImg2 from '../../public/assets/images/card-image2/card-cuisne-2.jpg';
+import cardCuisineImg3 from '../../public/assets/images/card-image2/card-cuisne-3.jpg';
+import cardCuisineImg4 from '../../public/assets/images/card-image2/card-cuisne-4.jpg';
+import image1 from '../../public/assets/images/card-image2/image-1.png';
+import image2 from '../../public/assets/images/card-image2/image-2.png';
+import guideImgBg from '../../public/assets/images/destination-countries/north-america/guide-bg.png';
+import cardStayingImg1 from '../../public/assets/images/blog-section/card-staying-img1.png';
+import cardStayingImg2 from '../../public/assets/images/blog-section/card-staying-img2.png';
+import cardStayingImg3 from '../../public/assets/images/blog-section/card-staying-img3.png';
+import cardStayingImg4 from '../../public/assets/images/blog-section/card-staying-img4.png';
+import cardStayingImg5 from '../../public/assets/images/blog-section/card-staying-img5.png';
+import northAmericaBlogCanadaImg1 from '../../public/assets/images/blog-section/north-america-blog-canada-img1.png';
+import northAmericaBlogCanadaImg2 from '../../public/assets/images/blog-section/north-america-blog-canada-img2.png';
+import northAmericaBlogCanadaImg3 from '../../public/assets/images/blog-section/north-america-blog-canada-img3.png';
+import cardAnimalImg1 from '../../public/assets/images/blog-section/card-animal-img1.png';
+import cardAnimalImg2 from '../../public/assets/images/blog-section/card-animal-img2.png';
+import cardAnimalImg3 from '../../public/assets/images/blog-section/card-animal-img3.png';
+import asideImg from '../../public/assets/images/blog-section/aside-img.png';
 export {
   logo,
   northAmericaImg,
@@ -148,4 +168,24 @@ export {
   cardCommunitybg,
   equipmentImg,
   photoGraphyBgImg,
+  FrquentlyBgImg,
+  cardCuisineImg1,
+  cardCuisineImg2,
+  cardCuisineImg3,
+  cardCuisineImg4,
+  image1,
+  image2,
+  guideImgBg,
+  cardStayingImg1,
+  cardStayingImg2,
+  cardStayingImg3,
+  cardStayingImg4,
+  cardStayingImg5,
+  northAmericaBlogCanadaImg1,
+  northAmericaBlogCanadaImg2,
+  northAmericaBlogCanadaImg3,
+  cardAnimalImg1,
+  cardAnimalImg2,
+  cardAnimalImg3,
+  asideImg,
 };

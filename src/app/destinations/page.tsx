@@ -1,20 +1,16 @@
-import React from 'react';
-import CountriesContinents from './countries-continents';
-import { Avatar } from '@/components/ui/avatar';
-import AvtarImage from './avtar-image';
 import Section from '@/components/ui/section';
 import Wrapper from '../../components/ui/wrapper';
 import PopularSection from './popular-section';
-import PopularCardImg from './popular-card-img';
 import TripPlanningSection from './trip-planning-section';
 import BlogSection from '@/components/ui/blog-section';
+import CountriesContinentsAvtar from '@/components/ui/countries-continents-avtar';
 
 export default function Destinations() {
   return (
     <>
       <Section>
         <Wrapper>
-          <CountriesContinents />
+          <CountriesContinentsAvtar />
         </Wrapper>
       </Section>
       {/* popular section */}
