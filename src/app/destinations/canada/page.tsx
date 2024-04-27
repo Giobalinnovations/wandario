@@ -71,12 +71,6 @@ export default function CanadaBlog() {
           <BlogSection />
         </Wrapper>
       </Section>
-
-      <Section>
-        <Wrapper>
-          <CardEquipmentSection />
-        </Wrapper>
-      </Section>
     </>
   );
 }

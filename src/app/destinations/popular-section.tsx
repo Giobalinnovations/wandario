@@ -1,4 +1,9 @@
-import React from 'react';
+'use client';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/autoplay';
 import PopularCardImg from './popular-card-img';
 import {
   icelandCardImg,
@@ -14,30 +19,51 @@ export default function PopularSection() {
   return (
     <>
       <Card className="relative rounded-[50px] ">
-        <div className="absolute top-6 mx-auto flex flex-col items-center w-full text-white">
-          <h2 className="font-bold text-3xl">Popular Destinations</h2>
+        <div className="absolute bottom-0  left-0">
+          <Image src={popularBackgroundImg} alt="" />
+        </div>
+        <div className="absolute -top-28 flex flex-col items-center w-full z-10 ">
+          <h2 className="font-bold text-3xl text-white">
+            Popular Destinations
+          </h2>
           <div className="border-b-[3px]  border-[#008ebe] w-[90px] my-2"></div>
         </div>
-        <Image src={popularBackgroundImg} alt="" />
-
-        <section className="flex absolute bottom-[14%] mx-2.5">
-          <PopularCardImg
-            title="Philippines"
-            imgSrc={philippinesCardImg}
-            alt="Philippines Image"
-          />
-          <PopularCardImg title="Japan" imgSrc={japanCardImg} alt="Japan" />
-          <PopularCardImg
-            title="Iceland"
-            imgSrc={icelandCardImg}
-            alt="Iceland"
-          />
-          <PopularCardImg
-            title="Indonesia"
-            imgSrc={indonesiaCardImg}
-            alt="Indonesia"
-          />
-        </section>
+        <div>
+          <Swiper
+            modules={[Navigation, Autoplay]}
+            navigation
+            autoplay
+            spaceBetween={5}
+            slidesPerView={3}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={swiper => console.log(swiper)}
+          >
+            <SwiperSlide>
+              <PopularCardImg
+                title="Philippines"
+                imgSrc={philippinesCardImg}
+                alt="Philippines Image"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PopularCardImg title="Japan" imgSrc={japanCardImg} alt="Japan" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PopularCardImg
+                title="Iceland"
+                imgSrc={icelandCardImg}
+                alt="Iceland"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PopularCardImg
+                title="Indonesia"
+                imgSrc={indonesiaCardImg}
+                alt="Indonesia"
+              />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </Card>
     </>
   );

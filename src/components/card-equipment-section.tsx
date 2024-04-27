@@ -1,7 +1,11 @@
-import React from 'react';
+'use client';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/autoplay';
 import CardEquipment from './card-equipment';
 import { equipmentImg } from '@/lib/images';
-import { title } from 'process';
 import EquimentTopTitle from './equiment-top-title';
 
 export default function CardEquipmentSection() {
@@ -14,40 +18,58 @@ export default function CardEquipmentSection() {
         />
       </div>
 
-      <div className="grid  grid-cols-1  sm:grid-cols-2 justify-center gap-5 items-center lg:grid-cols-4">
-        <CardEquipment
-          imgSrc={equipmentImg}
-          alt={'Image 1'}
-          title={'Equipment 1'}
-          description={'Wifi / Swimming Pool / Dinning'}
-          ratingScore={'4.5 ratings'}
-          btn={'Read More'}
-        />
-
-        <CardEquipment
-          imgSrc={equipmentImg}
-          alt={'Image 1'}
-          title={'Equipment 2'}
-          description={'Wifi / Swimming Pool / Dinning'}
-          ratingScore={'4.5 ratings'}
-          btn={'Read More'}
-        />
-        <CardEquipment
-          imgSrc={equipmentImg}
-          alt={'Image 1'}
-          title={'Equipment 3'}
-          description={'Wifi / Swimming Pool / Dinning'}
-          ratingScore={'4.5 ratings'}
-          btn={'Read More'}
-        />
-        <CardEquipment
-          imgSrc={equipmentImg}
-          alt={'Image 1'}
-          title={'Equipment 4'}
-          description={'Wifi / Swimming Pool / Dinning'}
-          ratingScore={'4.5 ratings'}
-          btn={'Read More'}
-        />
+      <div className="grid  grid-cols-1  sm:grid-cols-2 justify-center gap-5 items-center lg:grid-cols-4"></div>
+      <div className="">
+        <Swiper
+          modules={[Navigation, Autoplay]}
+          navigation
+          autoplay
+          spaceBetween={30}
+          slidesPerView={3}
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={swiper => console.log(swiper)}
+        >
+          <SwiperSlide>
+            <CardEquipment
+              imgSrc={equipmentImg}
+              alt={'Image 1'}
+              title={'Equipment 1'}
+              description={'Wifi / Swimming Pool / Dinning'}
+              ratingScore={'4.5 ratings'}
+              btn={'Read More'}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardEquipment
+              imgSrc={equipmentImg}
+              alt={'Image 1'}
+              title={'Equipment 2'}
+              description={'Wifi / Swimming Pool / Dinning'}
+              ratingScore={'4.5 ratings'}
+              btn={'Read More'}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardEquipment
+              imgSrc={equipmentImg}
+              alt={'Image 1'}
+              title={'Equipment 3'}
+              description={'Wifi / Swimming Pool / Dinning'}
+              ratingScore={'4.5 ratings'}
+              btn={'Read More'}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <CardEquipment
+              imgSrc={equipmentImg}
+              alt={'Image 1'}
+              title={'Equipment 4'}
+              description={'Wifi / Swimming Pool / Dinning'}
+              ratingScore={'4.5 ratings'}
+              btn={'Read More'}
+            />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </>
   );
