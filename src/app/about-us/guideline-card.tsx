@@ -6,7 +6,7 @@ import Image, { StaticImageData } from 'next/image';
 type GuidelineCardProps = {
   title: string;
   subtitle: string;
-  description: string;
+  description?: string;
   imgSrc: StaticImageData;
   alt: string;
 };
@@ -30,7 +30,7 @@ export default function GuidelineCard({
             <h2 className="text-[42px]">{subtitle}</h2>
             <div className="border-b-[3px]   border-[#008ebe] w-[90px] my-2"></div>
           </div>
-          <CardDescription className="text-white overflow-hidden">
+          <CardDescription className="text-white px-1 overflow-hidden line-clamp-4">
             {description}
           </CardDescription>
         </CardTitle>

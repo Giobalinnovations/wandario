@@ -14,11 +14,10 @@ export default function PopularCardImg({
 }: PopularCardImgProps) {
   return (
     <>
-      <div className="relative ">
+      <div className="relative overflow-hidden">
         <Image src={imgSrc} alt={alt} />
-
-        <div className="absolute bottom-10  text-white left-0  text-[32px] mx-auto flex flex-col  items-center w-full ">
-          <h1>{title}</h1>
+        <div className="absolute top-0 left-0  w-full h-full flex justify-center items-end">
+          <CardTitle className="text-[32px] text-white mb-4">{title}</CardTitle>
         </div>
       </div>
     </>

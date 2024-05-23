@@ -19,16 +19,27 @@ export default function GuidelineSection() {
           modules={[Navigation, Autoplay]}
           navigation
           autoplay
-          spaceBetween={30}
+          spaceBetween={10}
           slidesPerView={3}
           onSlideChange={() => console.log('slide change')}
           onSwiper={swiper => console.log(swiper)}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            580: {
+              slidesPerView: 2,
+            },
+
+            1000: {
+              slidesPerView: 3,
+            },
+          }}
         >
           <SwiperSlide>
             <GuidelineCard
               title="01"
               subtitle="Lorem Ipsum"
-              description=""
               imgSrc={guideCardImg1}
               alt="guide image"
             />
@@ -46,7 +57,6 @@ export default function GuidelineSection() {
             <GuidelineCard
               title="03"
               subtitle="Lorem Ipsum"
-              description=""
               imgSrc={guideCardImg3}
               alt="guide image 3"
             />

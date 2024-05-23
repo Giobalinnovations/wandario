@@ -28,6 +28,18 @@ export default function CardEquipmentSection() {
           slidesPerView={3}
           onSlideChange={() => console.log('slide change')}
           onSwiper={swiper => console.log(swiper)}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            580: {
+              slidesPerView: 2,
+            },
+
+            1000: {
+              slidesPerView: 3,
+            },
+          }}
         >
           <SwiperSlide>
             <CardEquipment

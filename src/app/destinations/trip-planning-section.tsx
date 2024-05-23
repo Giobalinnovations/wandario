@@ -29,11 +29,23 @@ export default function TripPlanningSection() {
           navigation
           autoplay
           spaceBetween={5}
-          slidesPerView={3}
+          slidesPerView={4}
           onSlideChange={() => console.log('slide change')}
           onSwiper={swiper => console.log(swiper)}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            580: {
+              slidesPerView: 2,
+            },
+
+            1000: {
+              slidesPerView: 3,
+            },
+          }}
         >
-          <SwiperSlide>
+          <SwiperSlide className="flex flex-col h-full">
             <TripPlanningCard
               imgSrc={itinerariesIcon}
               alt="Itineraries Icon"
@@ -41,7 +53,7 @@ export default function TripPlanningSection() {
               description={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specim-en book.`}
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="flex flex-col">
             <TripPlanningCard
               imgSrc={todosIcon}
               alt="To Dos Icon"
@@ -49,7 +61,7 @@ export default function TripPlanningSection() {
               description={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specim-en book.`}
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="flex flex-col">
             <TripPlanningCard
               imgSrc={whatEatIcon}
               alt="What To Eat? Icon"
@@ -57,7 +69,7 @@ export default function TripPlanningSection() {
               description={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specim-en book.`}
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className="flex flex-col">
             <TripPlanningCard
               imgSrc={toStayIcon}
               alt="To Stay Icon"
