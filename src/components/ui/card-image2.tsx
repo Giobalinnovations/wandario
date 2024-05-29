@@ -1,13 +1,9 @@
 import React from 'react';
-import Image, { StaticImageData } from 'next/image';
 import AboutSectionTitle from './section-title-card';
+import Image from 'next/image';
+import { cardImg1 } from '@/lib/images';
 
-type CardImage2Props = {
-  alt: string;
-  imgSrc: StaticImageData;
-};
-
-export default function CardImage2({ imgSrc, alt }: CardImage2Props) {
+export default function CardImage2() {
   return (
     <>
       <div className="flex flex-col items-center justify-center md:flex-row">
@@ -20,7 +16,7 @@ export default function CardImage2({ imgSrc, alt }: CardImage2Props) {
         </div>
 
         <div>
-          <Image src={imgSrc} alt={alt} />
+          <Image src={cardImg1} alt="" />
         </div>
       </div>
     </>

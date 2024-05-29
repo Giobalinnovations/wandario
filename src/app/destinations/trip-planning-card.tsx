@@ -21,11 +21,11 @@ export default function TripPlanningCard({
   description,
 }: TripPlanningCardProps) {
   return (
-    <Card className=" h-full border border-red-600">
+    <Card className="">
       <CardContent className="flex flex-col justify-center gap-2 h-full">
-        <Image src={imgSrc} alt={alt} className="mt-2" />
+        <Image src={imgSrc} alt={alt} className="mt-2 object-cover " />
         <CardTitle className="text-[32px]">{title}</CardTitle>
-        <CardDescription className="line-clamp-5">
+        <CardDescription className="line-clamp-6">
           {description}
         </CardDescription>
       </CardContent>

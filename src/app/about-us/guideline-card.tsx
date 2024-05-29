@@ -1,4 +1,9 @@
-import { Card, CardDescription, CardTitle } from '@/components/ui/card';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardTitle,
+} from '@/components/ui/card';
 import React from 'react';
 import GuidelineSection from './guideline-section';
 import Image, { StaticImageData } from 'next/image';
@@ -20,20 +25,24 @@ export default function GuidelineCard({
 }: GuidelineCardProps) {
   return (
     <>
-      <Card className="relative rounded-[50px]">
-        <div className="relative overflow-hidden">
-          <Image src={imgSrc} alt={alt} className="object-cover w-full" />
+      <Card className="relative rounded-[30px] transition-all duration-200 hover:scale-110 my-5 mx-4 h-full ">
+        <div className="relative">
+          <Image
+            src={imgSrc}
+            alt={alt}
+            className="object-cover rounded-[20px] w-full h-full"
+          />
         </div>
-        <CardTitle className="absolute bottom-7  overflow-hidden left-4 text-white">
-          <h1 className="text-[90px] ">{title}</h1>
+        <CardContent className="absolute bottom-0 text-white left-0 w-full">
+          <CardTitle className="text-[90px] ">{title}</CardTitle>
           <div>
-            <h2 className="text-[42px]">{subtitle}</h2>
+            <h2 className="text-4xl">{subtitle}</h2>
             <div className="border-b-[3px]   border-[#008ebe] w-[90px] my-2"></div>
           </div>
-          <CardDescription className="text-white px-1 overflow-hidden line-clamp-4">
+          <CardDescription className="text-white px-1">
             {description}
           </CardDescription>
-        </CardTitle>
+        </CardContent>
       </Card>
     </>
   );
