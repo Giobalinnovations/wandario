@@ -10,7 +10,7 @@ import React from 'react';
 
 type CardCountriesProps = {
   description: string;
-  btn: string;
+  btn?: string;
   CountriesName: string;
   imgSrc: StaticImageData;
   alt: string;
@@ -24,7 +24,7 @@ export default function CardCountries({
 }: CardCountriesProps) {
   return (
     <>
-      <Card className=" relative rounded-[50px]  text-white">
+      <Card className=" transition duration-300 hover:scale-110 relative rounded-[50px]  text-white">
         <Image src={imgSrc} alt={alt} className="w-full" />
         <CardContent className="absolute bottom-0 left-0">
           <CardTitle className="text-[30px] font-[600]  text-white">
@@ -33,9 +33,15 @@ export default function CardCountries({
           <CardDescription className="text-[14px] mb-2  text-white">
             {description}
           </CardDescription>
-          <Button variant="outline" className="rounded-[100px] bg-transparent">
-            {btn}
-          </Button>
+
+          {btn && (
+            <Button
+              variant="outline"
+              className="rounded-[100px] bg-transparent"
+            >
+              {btn}
+            </Button>
+          )}
         </CardContent>
       </Card>
     </>

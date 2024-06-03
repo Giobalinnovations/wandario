@@ -3,8 +3,8 @@ import React from 'react';
 
 type AboutTitleProps = {
   title: string;
-  paragraph1: string;
-  paragraph2: string;
+  paragraph: string;
+  paragraphTwo: string;
   imgSrc: StaticImageData;
   imgSrc2: StaticImageData;
   alt: string;
@@ -12,10 +12,10 @@ type AboutTitleProps = {
 
 export default function AboutTitle({
   title,
-  paragraph1,
-  paragraph2,
+  paragraph,
   imgSrc,
   imgSrc2,
+  paragraphTwo,
   alt,
 }: AboutTitleProps) {
   return (
@@ -26,8 +26,8 @@ export default function AboutTitle({
             <h2 className="font-bold text-3xl">{title}</h2>
             <div className="border-b-[3px]  border-[#008ebe] w-[90px] my-2"></div>
           </div>
-          <p>{paragraph1}</p>
-          <p>{paragraph2}</p>
+          <p>{paragraph}</p>
+          <p>{paragraphTwo}</p>
         </div>
 
         <div className="flex gap-4 relative">

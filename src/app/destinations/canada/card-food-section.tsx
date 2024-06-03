@@ -1,37 +1,53 @@
+'use client';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/autoplay';
 import Cardlocal from '@/components/card-local';
+import { cardsFood } from '@/lib/data';
 import SectionTitle from '@/components/ui/section-title';
-import { cardfood, cardfood2, cardfood3, cardfood4 } from '@/lib/images';
-import React from 'react';
 
 export default function CardFoodSection() {
   return (
     <>
       <SectionTitle title={'Local Cuisines Of Canada'} />
-      <div className="flex gap-2">
-        <Cardlocal
-          imgSrc={cardfood}
-          alt="Poutine"
-          title="Poutine"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-        />
-        <Cardlocal
-          imgSrc={cardfood2}
-          alt="Bannock"
-          title="Bannock"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-        />
-        <Cardlocal
-          imgSrc={cardfood}
-          alt="Butter tarts"
-          title="Butter tarts"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-        />
-        <Cardlocal
-          imgSrc={cardfood4}
-          alt="Beavertails"
-          title="Beavertails"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
-        />
+      <div>
+        <Swiper
+          modules={[Navigation, Autoplay]}
+          navigation
+          autoplay
+          spaceBetween={10}
+          slidesPerView={4}
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={swiper => console.log(swiper)}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            580: {
+              slidesPerView: 2,
+            },
+
+            800: {
+              slidesPerView: 3,
+            },
+
+            1000: {
+              slidesPerView: 3,
+            },
+
+            1024: {
+              slidesPerView: 4,
+            },
+          }}
+        >
+          {cardsFood.map((food, index) => (
+            <SwiperSlide key={index}>
+              <Cardlocal {...food} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </>
   );

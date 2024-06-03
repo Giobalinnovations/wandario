@@ -69,6 +69,8 @@ import cardfood2 from '../../public/assets/images/card-hotel/card-food2.png';
 import cardfood3 from '../../public/assets/images/card-hotel/card-food3.png';
 import cardfood4 from '../../public/assets/images/card-hotel/card-food4.png';
 import cardCommunityImg from '../../public/assets/images/card-hotel/card-community-img.png';
+import cardCommunityImg2 from '../../public/assets/images/card-hotel/card-community-img2.png';
+import cardCommunityImg3 from '../../public/assets/images/card-hotel/card-community-img3.png';
 import cardCommunitybg from '../../public/assets/images/card-hotel/communtiy-bg.png';
 import starIcon from '../../public/assets/images/card-hotel/star-icon.png';
 import locationhotelIcon from '../../public/assets/images/card-hotel/location-icon.png';
@@ -167,6 +169,8 @@ export {
   cardfood3,
   cardfood4,
   cardCommunityImg,
+  cardCommunityImg2,
+  cardCommunityImg3,
   cardCommunitybg,
   equipmentImg,
   photoGraphyBgImg,

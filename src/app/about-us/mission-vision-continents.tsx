@@ -13,9 +13,7 @@ export default function MissionVisionContinents() {
       <section>
         <div>
           <MissionSection
-            title="Our Mission"
-            paragraph1={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`}
-            paragraph2={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`}
+            paragraph={`At Travel Reviews Guide, our goal is to give real, up-to-date, and detailed information to globe trotters worldwide, so that every trip is informed and memorable. We aim to reveal the soul of each place, its distinctive personality, and its hidden gems. We additionally desire to help travellers connect with people from other countries worldwide.`}
             imgSrc={missionImg}
             alt="Mission Image"
           />
@@ -23,9 +21,7 @@ export default function MissionVisionContinents() {
 
         <div>
           <VisionSection
-            title="Our Vision"
-            paragraph1={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`}
-            paragraph2={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`}
+            paragraph={`We foresee a world in which travel is more than simply getting from one point to another and is more of a holistic experience. A world in which travellers, armed with accurate knowledge, may fully immerse themselves, walk gently on the planet, and have a good impact on local communities. We hope to unite cultures, create knowledge, and add to a more ecologically friendly and peaceful global community via the power of intelligent travel.`}
             imgSrc={missionImg}
             alt="Vision Image"
           />

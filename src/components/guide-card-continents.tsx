@@ -1,8 +1,8 @@
 import { guideImgBg } from '@/lib/images';
 import GuideCard from './guide-card';
 import BgImage from './ui/bg-image';
-import { Card } from './ui/card';
 import Section from './ui/section';
+import { guidesCards } from '@/lib/data';
 
 export default function GuideCardContinents() {
   return (
@@ -16,22 +16,9 @@ export default function GuideCardContinents() {
               <div className="border-b-[3px]  border-[#008ebe] w-[96px] my-2"></div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 justify-center">
-              <GuideCard
-                CountriesName="Canada"
-                description="Lorem Ipsum is simply dummy text of the printing and typeset-ting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-              />
-              <GuideCard
-                CountriesName="Canada"
-                description="Lorem Ipsum is simply dummy text of the printing and typeset-ting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-              />
-              <GuideCard
-                CountriesName="Peurto Rico"
-                description="Lorem Ipsum is simply dummy text of the printing and typeset-ting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-              />
-              <GuideCard
-                CountriesName="United States"
-                description="Lorem Ipsum is simply dummy text of the printing and typeset-ting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-              />
+              {guidesCards.map((guidecard, index) => (
+                <GuideCard key={index} {...guidecard} />
+              ))}
             </div>
           </div>
         </div>

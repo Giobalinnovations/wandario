@@ -5,12 +5,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import TripPlanningCard from './trip-planning-card';
-import {
-  itinerariesIcon,
-  todosIcon,
-  toStayIcon,
-  whatEatIcon,
-} from '@/lib/images';
 import { trips } from '@/lib/data';
 
 export default function TripPlanningSection() {
@@ -20,7 +14,7 @@ export default function TripPlanningSection() {
         <div className="mb-6">
           <h2 className="font-bold text-3xl">Trip Planning</h2>
           <div className="border-b-[3px]  border-[#008ebe] w-[140px] my-2"></div>
-          <p>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`}</p>
+          <>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`}</>
         </div>
       </div>
 
@@ -30,7 +24,7 @@ export default function TripPlanningSection() {
           navigation
           autoplay
           spaceBetween={10}
-          slidesPerView={3}
+          slidesPerView={4}
           onSlideChange={() => console.log('slide change')}
           onSwiper={swiper => console.log(swiper)}
           breakpoints={{
@@ -42,6 +36,9 @@ export default function TripPlanningSection() {
             },
 
             1000: {
+              slidesPerView: 3,
+            },
+            1024: {
               slidesPerView: 3,
             },
           }}

@@ -9,7 +9,7 @@ import React from 'react';
 
 type TripPlanningCardProps = {
   title: string;
-  imgSrc: StaticImageData;
+  imgSrc: StaticImageData | string;
   alt: string;
   description: string;
 };
@@ -21,7 +21,7 @@ export default function TripPlanningCard({
   description,
 }: TripPlanningCardProps) {
   return (
-    <Card className="">
+    <Card>
       <CardContent className="flex flex-col justify-center gap-2 h-full">
         <Image src={imgSrc} alt={alt} className="mt-2 object-cover " />
         <CardTitle className="text-[32px]">{title}</CardTitle>

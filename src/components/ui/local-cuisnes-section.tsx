@@ -29,6 +29,9 @@ export default function LocalCuisnesSection() {
             1000: {
               slidesPerView: 3,
             },
+            1024: {
+              slidesPerView: 4,
+            },
           }}
         >
           <div>

@@ -8,7 +8,7 @@ export default function Continents() {
   return (
     <>
       <div className="flex flex-col gap-7">
-        <SectionTitle title="Our Destinations" />
+        <SectionTitle title="Explore Dream Destinations Uncover Best Travel Places In The World" />
         <div className="flex justify-center gap-6 flex-wrap">
           {continents?.map(continent => (
             <MapCard key={continent.title} {...continent} />

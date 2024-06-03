@@ -37,17 +37,11 @@ export default function GuidelineSection() {
             },
           }}
         >
-          {guidelines.map((guideline, index) => (
+          {/* {guidelines.map((guideline, index) => (
             <SwiperSlide key={index}>
-              <GuidelineCard
-                subtitle={guideline.subtitle}
-                imgSrc={guideline.imgSrc}
-                title={guideline.title}
-                alt={guideline.alt}
-                description={guideline.description}
-              />
+              <GuidelineCard {...guideline} />
             </SwiperSlide>
-          ))}
+          ))} */}
         </Swiper>
       </div>
     </>

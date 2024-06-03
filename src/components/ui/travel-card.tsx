@@ -19,8 +19,8 @@ type TravelCardProps = {
 export default function TravelCard({ imgSrc, title, alt }: TravelCardProps) {
   return (
     <>
-      <div className=" hover:scale-110 transition duration-300 ease-in-out">
-        <Card className="shadow-none border-none font-bold rounded-[50%] w-[250px] h-[250px]">
+      <div className=" hover:scale-110   transition duration-300 ease-in-out">
+        <Card className="shadow-md hover:shadow-cyan-500/50 font-bold rounded-[50%] w-[250px] h-[250px]">
           <div className="flex justify-center items-center h-full">
             <Image src={imgSrc} alt={alt} />
           </div>
