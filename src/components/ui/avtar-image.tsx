@@ -9,8 +9,12 @@ type AvtarImageProps = {
 export default function AvtarImage({ imgSrc, alt }: AvtarImageProps) {
   return (
     <>
-      <div className="w-[50px] h-[50px] rounded-[50px]">
-        <Image src={imgSrc} alt={alt} />
+      <div className="w-[50px] h-[50px] rounded-full shrink-0">
+        <Image
+          src={imgSrc}
+          alt={alt}
+          className="object-cover w-[50px] h-[50px] rounded-full"
+        />
       </div>
     </>
   );

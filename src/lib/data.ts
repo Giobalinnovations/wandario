@@ -38,6 +38,15 @@ import {
   cardCommunityImg3,
   toStayIcon,
   indonesiaCardImg,
+  popRestaurant1,
+  popRestaurant2,
+  popRestaurant3,
+  popRestaurant4,
+  equipmentImg,
+  hurawalhiResortImg,
+  singularPatagoniaImg,
+  bluefieldsBayVillasImg,
+  tongabeziLodgeImg,
 } from '@/lib/images';
 
 export const continents = [
@@ -162,25 +171,25 @@ export const trips = [
     title: 'Itineraries',
     imgSrc: itinerariesIcon,
     alt: 'Itineraries Icon',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specim-en book.`,
+    description: `A well-organized itinerary, complete with daily plans, reservations, and essential contacts, ensures your trips are meticulously planned and filled with enjoyable experiences.`,
   },
   {
     title: 'To Do’s',
     imgSrc: todosIcon,
     alt: 'todosIcon',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specim-en book.`,
+    description: `To have a great holiday, carefully plan your daily activities, and make bookings ahead of time so everything goes smoothly. A well-planned itinerary can enhance your overall experience.`,
   },
   {
     title: 'What To Eat?',
     imgSrc: whatEatIcon,
     alt: 'whatEatIcon',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specim-en book.`,
+    description: `Discover the food in the area, enlist the best places to eat, and eat as much of it as you can. Asking locals for their favourite spots often leads to unexpected hidden gems.`,
   },
   {
     title: 'To Stay',
     imgSrc: toStayIcon,
     alt: 'To Stay',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specim-en book.`,
+    description: `When choosing where to stay, always consider both pricing and accessibility. Always make sure to thoroughly read reviews and ratings from past guests to assess convenience.`,
   },
 ];
 
@@ -203,6 +212,91 @@ export const populars = [
   {
     title: 'Indonesia',
     imgSrc: indonesiaCardImg,
+    alt: 'Indonesia',
+  },
+];
+
+export const cardResorts = [
+  {
+    imgSrc: hurawalhiResortImg,
+    alt: 'hurawalhiResortImg',
+    title: 'Hurawalhi Island Resort',
+    description: 'Wifi / Swimming Pool / Dinning',
+    ratingScore: '4.5 ratings',
+    locationName: 'Maldives.',
+  },
+  {
+    imgSrc: singularPatagoniaImg,
+    alt: 'The Singular Patagonia',
+    title: 'The Singular Patagonia',
+    description: 'Wifi / Swimming Pool / Dinning',
+    ratingScore: '4.5 ratings',
+    locationName: 'Puerto Bories, Chile.',
+  },
+  {
+    imgSrc: bluefieldsBayVillasImg,
+    alt: 'Bluefields Bay Villas',
+    title: 'Bluefields Bay Villas',
+    description: 'Wifi / Swimming Pool / Dinning',
+    ratingScore: '4.5 ratings',
+    locationName: 'Jamaica',
+  },
+  {
+    imgSrc: tongabeziLodgeImg,
+    alt: 'Tongabezi Lodge',
+    title: 'Tongabezi Lodge',
+    description: 'Wifi / Swimming Pool / Dinning',
+    ratingScore: '4.5 ratings',
+    locationName: 'Simonga, Zambia',
+  },
+];
+
+export const rentalVacations = [
+  {
+    imgSrc: hurawalhiResortImg,
+    alt: 'hurawalhiResortImg',
+    title: 'Hurawalhi Island Resort',
+    ratingScore: '4.5 ratings',
+  },
+  {
+    imgSrc: singularPatagoniaImg,
+    alt: 'The Singular Patagonia',
+    title: 'The Singular Patagonia',
+    ratingScore: '4.5 ratings',
+  },
+  {
+    imgSrc: bluefieldsBayVillasImg,
+    alt: 'Bluefields Bay Villas',
+    title: 'Bluefields Bay Villas',
+    ratingScore: '4.5 ratings',
+  },
+  {
+    imgSrc: tongabeziLodgeImg,
+    alt: 'Tongabezi Lodge',
+    title: 'Tongabezi Lodge',
+    ratingScore: '4.5 ratings',
+  },
+];
+
+export const popularRestaurants = [
+  {
+    title: 'Philippines',
+    imgSrc: popRestaurant1,
+    alt: 'Philippines Image',
+  },
+  {
+    title: 'Japan',
+    imgSrc: popRestaurant2,
+    alt: 'Japan',
+  },
+  {
+    title: 'Iceland',
+    imgSrc: popRestaurant3,
+    alt: 'Iceland',
+  },
+  {
+    title: 'Indonesia',
+    imgSrc: popRestaurant4,
     alt: 'Indonesia',
   },
 ];

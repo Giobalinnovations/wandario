@@ -81,3 +81,9 @@
     overflow-x: hidden;
   }
 }
+
+.text-stroke-text {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+}

@@ -1,12 +1,12 @@
 import Section from '@/components/ui/section';
 import Wrapper from '@/components/ui/wrapper';
-import React from 'react';
 import PopularSection from '../destinations/popular-section';
-import CardEquipmentSection from '@/components/card-equipment-section';
 import CountriesContinentsAvtar from '@/components/ui/countries-continents-avtar';
 import TravelContinents from '@/components/ui/travel-continents';
 import BlogSection from '@/components/ui/blog-section';
 import CardStayingHotel from '@/components/ui/card-staying-hotel';
+import CardResortSection from '@/components/card-resort-section';
+import RentalVations from '@/components/rental-vations';
 
 export default function AccommodationsHome() {
   return (
@@ -23,7 +23,7 @@ export default function AccommodationsHome() {
       </Section>
       <Section>
         <Wrapper>
-          <CardEquipmentSection />
+          <CardResortSection />
         </Wrapper>
       </Section>
       <Section>
@@ -36,12 +36,11 @@ export default function AccommodationsHome() {
           <TravelContinents />
         </Wrapper>
       </Section>
-      <Section>
+      {/* <Section>
         <Wrapper>
-          <CardEquipmentSection />
+          <RentalVations />
         </Wrapper>
-      </Section>
-
+      </Section> */}
       <Section>
         <Wrapper>
           <BlogSection />

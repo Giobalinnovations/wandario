@@ -1,4 +1,3 @@
-import React from 'react';
 import Section from '@/components/ui/section';
 import Wrapper from '@/components/ui/wrapper';
 import AboutContinents from './about-continents';

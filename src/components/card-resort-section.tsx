@@ -4,23 +4,26 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
-import GuidelineCard from './guideline-card';
-import { guidelines } from '@/lib/data';
+import { cardResorts } from '@/lib/data';
+import TitleDescription from './title-description';
+import CardResort from './card-resort';
 
-export default function GuidelineSection() {
+export default function CardResortSection() {
   return (
     <>
-      <div className="flex items-center mb-7 flex-col">
-        <h1 className="font-bold text-[32px]">Our Guidelines</h1>
-        <div className="border-b-[3px]   border-[#008ebe] w-[90px] my-2"></div>
-      </div>
       <div>
+        <TitleDescription
+          title={'Resorts To Stay'}
+          description={`Travel has evolved from luxury to self-discovery, with resorts becoming gateways to unique experiences and cultural immersion. ‘Resorts to Stay’ offers a selection of the world’s finest resorts, offering relaxation, adventure, and luxury in unforgettable destinations.`}
+        />
+      </div>
+      <div className="">
         <Swiper
           modules={[Navigation, Autoplay]}
           navigation
           autoplay
           spaceBetween={5}
-          slidesPerView={3}
+          slidesPerView={4}
           onSlideChange={() => console.log('slide change')}
           onSwiper={swiper => console.log(swiper)}
           breakpoints={{
@@ -39,9 +42,9 @@ export default function GuidelineSection() {
             },
           }}
         >
-          {guidelines.map((guideline, index) => (
+          {cardResorts.map((resort, index) => (
             <SwiperSlide key={index}>
-              <GuidelineCard {...guideline} />
+              <CardResort {...resort} />
             </SwiperSlide>
           ))}
         </Swiper>

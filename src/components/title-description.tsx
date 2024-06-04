@@ -1,12 +1,12 @@
-type EquimentTopTitleProps = {
+type TitleDescriptionProps = {
   title: string;
   description: string;
 };
 
-export default function EquimentTopTitle({
+export default function TitleDescription({
   title,
   description,
-}: EquimentTopTitleProps) {
+}: TitleDescriptionProps) {
   return (
     <>
       <div className="mb-8">

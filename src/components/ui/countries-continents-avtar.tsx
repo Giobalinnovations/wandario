@@ -1,3 +1,4 @@
+'use client';
 import { RiArrowRightSLine } from 'react-icons/ri';
 
 import {
@@ -14,8 +15,48 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import CountriesSection from '@/app/destinations/countries-section';
 import AvtarImage from './avtar-image';
 import CountriesList from '@/app/destinations/countries-list';
+import { continents } from '../../lib/data';
 
+const continentsData = [
+  {
+    name: 'north america',
+    image: northAmericaAvtar,
+    destinations: [
+      {
+        name: 'canada',
+      },
+      {
+        name: 'mexico',
+      },
+      {
+        name: 'peurto rico',
+      },
+      {
+        name: 'united states',
+      },
+    ],
+  },
+  {
+    name: 'europe',
+    image: europeAvtar,
+    destinations: [
+      {
+        name: 'italy',
+      },
+      {
+        name: 'germany',
+      },
+      {
+        name: 'united kingdom',
+      },
+      {
+        name: 'france',
+      },
+    ],
+  },
+];
 export default function CountriesContinentsAvtar() {
+  console.log(continentsData.length);
   return (
     <>
       <div className="mb-14">
@@ -24,42 +65,22 @@ export default function CountriesContinentsAvtar() {
       </div>
       <section className="flex flex-col gap-5 justify-center lg:flex-row  ">
         <div className="flex flex-col justify-center items-center gap-6">
-          <div className=" flex items-center  w-full  gap-4 ">
-            <AvtarImage imgSrc={northAmericaAvtar} alt="north america" />
-            <CountriesSection title="NORTH AMERICA">
-              <RiArrowRightSLine className="text-3xl" />
-            </CountriesSection>
-          </div>
-          <div className="flex items-center  w-full gap-4">
-            <AvtarImage imgSrc={europeAvtar} alt="north america" />
-            <CountriesSection title="EUROPE">
-              <RiArrowRightSLine className="text-3xl" />
-            </CountriesSection>
-          </div>
-          <div className="flex items-center w-full gap-4">
-            <AvtarImage imgSrc={asiaAvtar} alt="north america" />
-            <CountriesSection title="ASIA">
-              <RiArrowRightSLine className="text-3xl" />
-            </CountriesSection>
-          </div>
-          <div className="flex items-center w-full gap-4">
-            <AvtarImage imgSrc={africaAvtar} alt="north america" />
-            <CountriesSection title="AFRICA">
-              <RiArrowRightSLine className="text-3xl" />
-            </CountriesSection>
-          </div>
-          <div className="flex items-center w-full gap-4">
-            <AvtarImage imgSrc={southAvtar} alt="north america" />
-            <CountriesSection title="SOUTH AMERICA">
-              <RiArrowRightSLine className="text-3xl" />
-            </CountriesSection>
-          </div>
-          <div className="flex items-center  w-full gap-4">
-            <AvtarImage imgSrc={australiaAvtar} alt="north america" />
-            <CountriesSection title="AUSTRALIA">
-              <RiArrowRightSLine className="text-3xl" />
-            </CountriesSection>
-          </div>
+          {continentsData.length > 0
+            ? continentsData.map((continent, index) => (
+                <div
+                  key={continent.name}
+                  className=" flex items-center w-full gap-4"
+                >
+                  <AvtarImage imgSrc={continent.image} alt="north america" />
+                  <CountriesSection
+                    title={continent.name}
+                    className="text-red-500"
+                  >
+                    <RiArrowRightSLine className="text-3xl" />
+                  </CountriesSection>
+                </div>
+              ))
+            : null}
         </div>
 
         <div className="flex-1">
@@ -71,26 +92,14 @@ export default function CountriesContinentsAvtar() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <CountriesList
-                imgSrc={locationIcon}
-                alt="location icon"
-                CountriesName="CANADA"
-              />
-              <CountriesList
-                imgSrc={locationIcon}
-                alt="location icon"
-                CountriesName="MEXICO"
-              />
-              <CountriesList
-                imgSrc={locationIcon}
-                alt="location icon"
-                CountriesName="PEURTO RICO"
-              />
-              <CountriesList
-                imgSrc={locationIcon}
-                alt="location icon"
-                CountriesName="UNITED STATES"
-              />
+              {continentsData[0].destinations.map(destintion => (
+                <CountriesList
+                  key={destintion.name}
+                  imgSrc={locationIcon}
+                  alt="location icon"
+                  CountriesName={destintion.name}
+                />
+              ))}
             </CardContent>
           </Card>
         </div>

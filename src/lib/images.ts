@@ -97,6 +97,15 @@ import cardAnimalImg3 from '../../public/assets/images/blog-section/card-animal-
 import asideImg from '../../public/assets/images/blog-section/aside-img.png';
 import meerkatImg from '../../public/assets/images/blog-section/meerkat-img.png';
 import LionImg from '../../public/assets/images/blog-section/lion-img.png';
+import popRestaurantBg from '../../public/assets/images/destination-countries/popular-image/pop-restaurant-bg.png';
+import popRestaurant1 from '../../public/assets/images/destination-countries/popular-image/pop-restaurant1.png';
+import popRestaurant2 from '../../public/assets/images/destination-countries/popular-image/pop-restaurant2.png';
+import popRestaurant3 from '../../public/assets/images/destination-countries/popular-image/pop-restaurant3.png';
+import popRestaurant4 from '../../public/assets/images/destination-countries/popular-image/pop-restaurant4.png';
+import hurawalhiResortImg from '../../public/assets/images/accommodations/hurawalhi-island-resort-img.png';
+import bluefieldsBayVillasImg from '../../public/assets/images/accommodations/bluefields-bay-villas-img.png';
+import singularPatagoniaImg from '../../public/assets/images/accommodations/singular-patagonia-img.png';
+import tongabeziLodgeImg from '../../public/assets/images/accommodations/tongabezi-lodge.png';
 export {
   logo,
   northAmericaImg,
@@ -196,4 +205,13 @@ export {
   asideImg,
   meerkatImg,
   LionImg,
+  popRestaurantBg,
+  popRestaurant1,
+  popRestaurant2,
+  popRestaurant3,
+  popRestaurant4,
+  hurawalhiResortImg,
+  bluefieldsBayVillasImg,
+  singularPatagoniaImg,
+  tongabeziLodgeImg,
 };

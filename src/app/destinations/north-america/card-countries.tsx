@@ -24,7 +24,7 @@ export default function CardCountries({
 }: CardCountriesProps) {
   return (
     <>
-      <Card className=" transition duration-300 hover:scale-110 relative rounded-[50px]  text-white">
+      <Card className=" transition duration-300 hover:scale-110 relative rounded-[60px]  text-white">
         <Image src={imgSrc} alt={alt} className="w-full" />
         <CardContent className="absolute bottom-0 left-0">
           <CardTitle className="text-[30px] font-[600]  text-white">

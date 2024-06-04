@@ -25,7 +25,7 @@ export default function GuidelineCard({
 }: GuidelineCardProps) {
   return (
     <>
-      <Card className="relative rounded-[30px] transition-all duration-200 hover:scale-110 my-5 mx-4 h-full ">
+      <Card className="relative rounded-[30px]  transition-all duration-200 hover:scale-110 my-5 mx-4 h-full ">
         <div className="relative">
           <Image
             src={imgSrc}
@@ -33,13 +33,15 @@ export default function GuidelineCard({
             className="object-cover rounded-[20px] w-full h-full"
           />
         </div>
-        <CardContent className="absolute bottom-0 text-white left-0 w-full">
-          <CardTitle className="text-[90px] ">{numbertext}</CardTitle>
+        <CardContent className="absolute bottom-0 overflow-hidden hover:-translate-y-6 transition-all   text-white left-0 w-full">
+          <CardTitle className="text-[90px] text-stroke-text">
+            {numbertext}
+          </CardTitle>
           <div>
-            <h2 className="text-4xl">{title}</h2>
+            <CardTitle className="text-3xl">{title}</CardTitle>
             <div className="border-b-[3px]   border-[#008ebe] w-[90px] my-2"></div>
           </div>
-          <CardDescription className="text-white px-1">
+          <CardDescription className="text-white line-clamp-2 sm:line-clamp-6 lg:line-clamp-none px-1">
             {description}
           </CardDescription>
         </CardContent>

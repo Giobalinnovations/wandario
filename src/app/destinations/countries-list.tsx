@@ -1,4 +1,3 @@
-import { Card, CardTitle } from '@/components/ui/card';
 import Image, { StaticImageData } from 'next/image';
 import React from 'react';
 

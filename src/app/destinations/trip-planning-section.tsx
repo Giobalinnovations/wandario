@@ -23,7 +23,7 @@ export default function TripPlanningSection() {
           modules={[Navigation, Autoplay]}
           navigation
           autoplay
-          spaceBetween={10}
+          spaceBetween={2}
           slidesPerView={4}
           onSlideChange={() => console.log('slide change')}
           onSwiper={swiper => console.log(swiper)}
@@ -35,11 +35,16 @@ export default function TripPlanningSection() {
               slidesPerView: 2,
             },
 
+            800: {
+              slidesPerView: 3,
+              spaceBetween: 4,
+            },
             1000: {
               slidesPerView: 3,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 4,
+              spaceBetween: 20,
             },
           }}
         >
