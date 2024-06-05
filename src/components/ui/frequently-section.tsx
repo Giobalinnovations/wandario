@@ -72,8 +72,8 @@ Ipsum has been the industry's standard dummy text ever since the 1500s`}</p>
                 </CardTitle>
               </Card>
             </div>
-
-            {/* <Accordion type="single" collapsible className="text-white">
+            {/*
+            <Accordion type="single" collapsible className="text-white w-full">
               <AccordionItem value="item-1">
                 <AccordionTrigger>
                   How safe is it for a female to travel solo?
@@ -143,6 +143,16 @@ Ipsum has been the industry's standard dummy text ever since the 1500s`}</p>
                 </AccordionContent>
               </AccordionItem>
             </Accordion> */}
+
+            <button className="accordion">Section 1</button>
+            <div className="panel">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
           </Wrapper>
         </Section>
       </div>

@@ -15,10 +15,15 @@ export default function CountriesSection({
 }: CountriesSectionProps) {
   return (
     <>
-      <Card className="w-full py-3 px-5 rounded-[50px]">
+      <Card
+        className={cn(
+          'w-full py-3 px-5 rounded-[50px] hover:bg-[#00DBFF]',
+          className
+        )}
+      >
         <div
           className={cn(
-            'text-xl font-[400] flex items-center justify-between w-full capitalize',
+            'text-lg  flex items-center justify-between w-full uppercase font-semibold',
             className
           )}
         >

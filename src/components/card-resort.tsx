@@ -52,7 +52,7 @@ export default function CardResort({
           <div>
             <Button
               variant="outline"
-              className="rounded-[100px] bg-transparent text-[#008ebe] border-[#008ebe]"
+              className="rounded-[100px] bg-transparent text-[#008ebe] hover:bg-[#008ebe] hover:text-white border-[#008ebe]"
             >
               Make Visit
             </Button>
