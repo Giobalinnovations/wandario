@@ -11,7 +11,6 @@ import CardCitiesSection from '@/components/card-cities-section';
 import CardFoodSection from './card-food-section';
 import CardCommunitySection from '@/components/card-community-section';
 import ExploreCanada from './explore-canada';
-import CardEquipmentSection from '@/components/card-equipment-section';
 
 export default function CanadaBlog() {
   return (
