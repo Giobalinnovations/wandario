@@ -4,19 +4,17 @@ import Image from 'next/image';
 import { buttonVariants } from '@/components/ui/button';
 import Link from 'next/link';
 import LinkButton from './link-button';
+import { title } from 'process';
+import TitleUnderline from './title-underline';
 
 export default function PhotographyTitleSection() {
   return (
     <>
       <div className="flex flex-col gap-5 lg:flex-row justify-between">
         <div className="max-w-lg">
-          <h2 className="text-3xl font-bold ">Photography</h2>
-          <div className="border-b-[3px]  border-[#008ebe] w-[20%] my-2"></div>
+          <TitleUnderline title="Photography" className="text-white" />
           <p>
-            {`Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.`}
+            {`Tourists can travel back in time with photographs. Filming them on camera lets us relive the experiences and enjoy them all over again. A camera is an excellent travel partner, particularly when travelling alone. When uploaded on social media platforms like Instagram and Facebook, these images not only tell a story but also show the distinct splendour and exhilaration of each tour. Photographs are the best means for us to recall the amazing times we’ve encountered on our journeys.`}
           </p>
         </div>
         <div className="self-end">

@@ -11,12 +11,8 @@ import BgImage from './bg-image';
 export default function PhotographyIcon() {
   return (
     <>
-      <div className="rounded-[30px] flex flex-col  text-white relative overflow-hidden">
-        <BgImage
-          bgImg={photoGraphyBgImg}
-          alt="photography"
-          className="rounded-[30px]"
-        />
+      <div className="rounded-[30px]  flex flex-col  text-white relative overflow-hidden">
+        <BgImage bgImg={photoGraphyBgImg} alt="photography" className="" />
 
         <div className="p-10 flex flex-col justify-center gap-20">
           <PhotographyTitleSection />

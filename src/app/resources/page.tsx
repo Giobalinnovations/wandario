@@ -1,4 +1,3 @@
-import CardEquipmentSection from '@/components/card-equipment-section';
 import Section from '@/components/ui/section';
 import Wrapper from '@/components/ui/wrapper';
 import React from 'react';
@@ -17,11 +16,6 @@ export default function ResourcesHome() {
       <Section>
         <Wrapper>
           <CardCountriesSection />
-        </Wrapper>
-      </Section>
-      <Section>
-        <Wrapper>
-          <CardEquipmentSection />
         </Wrapper>
       </Section>
       <Section>

@@ -29,7 +29,7 @@ export default function Home() {
       {/* about section */}
       <Section>
         <Wrapper>
-          <CardImage2 imgSrc={cardImg1} alt="cardImg1" />
+          <CardImage2 />
         </Wrapper>
       </Section>
       <Section>

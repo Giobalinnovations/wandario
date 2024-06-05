@@ -69,6 +69,8 @@ import cardfood2 from '../../public/assets/images/card-hotel/card-food2.png';
 import cardfood3 from '../../public/assets/images/card-hotel/card-food3.png';
 import cardfood4 from '../../public/assets/images/card-hotel/card-food4.png';
 import cardCommunityImg from '../../public/assets/images/card-hotel/card-community-img.png';
+import cardCommunityImg2 from '../../public/assets/images/card-hotel/card-community-img2.png';
+import cardCommunityImg3 from '../../public/assets/images/card-hotel/card-community-img3.png';
 import cardCommunitybg from '../../public/assets/images/card-hotel/communtiy-bg.png';
 import starIcon from '../../public/assets/images/card-hotel/star-icon.png';
 import locationhotelIcon from '../../public/assets/images/card-hotel/location-icon.png';
@@ -95,6 +97,15 @@ import cardAnimalImg3 from '../../public/assets/images/blog-section/card-animal-
 import asideImg from '../../public/assets/images/blog-section/aside-img.png';
 import meerkatImg from '../../public/assets/images/blog-section/meerkat-img.png';
 import LionImg from '../../public/assets/images/blog-section/lion-img.png';
+import popRestaurantBg from '../../public/assets/images/destination-countries/popular-image/pop-restaurant-bg.png';
+import popRestaurant1 from '../../public/assets/images/destination-countries/popular-image/pop-restaurant1.png';
+import popRestaurant2 from '../../public/assets/images/destination-countries/popular-image/pop-restaurant2.png';
+import popRestaurant3 from '../../public/assets/images/destination-countries/popular-image/pop-restaurant3.png';
+import popRestaurant4 from '../../public/assets/images/destination-countries/popular-image/pop-restaurant4.png';
+import hurawalhiResortImg from '../../public/assets/images/accommodations/hurawalhi-island-resort-img.png';
+import bluefieldsBayVillasImg from '../../public/assets/images/accommodations/bluefields-bay-villas-img.png';
+import singularPatagoniaImg from '../../public/assets/images/accommodations/singular-patagonia-img.png';
+import tongabeziLodgeImg from '../../public/assets/images/accommodations/tongabezi-lodge.png';
 export {
   logo,
   northAmericaImg,
@@ -167,6 +178,8 @@ export {
   cardfood3,
   cardfood4,
   cardCommunityImg,
+  cardCommunityImg2,
+  cardCommunityImg3,
   cardCommunitybg,
   equipmentImg,
   photoGraphyBgImg,
@@ -192,4 +205,13 @@ export {
   asideImg,
   meerkatImg,
   LionImg,
+  popRestaurantBg,
+  popRestaurant1,
+  popRestaurant2,
+  popRestaurant3,
+  popRestaurant4,
+  hurawalhiResortImg,
+  bluefieldsBayVillasImg,
+  singularPatagoniaImg,
+  tongabeziLodgeImg,
 };

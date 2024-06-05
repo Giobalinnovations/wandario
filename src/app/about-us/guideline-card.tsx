@@ -1,42 +1,50 @@
-import { Card, CardDescription, CardTitle } from '@/components/ui/card';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardTitle,
+} from '@/components/ui/card';
 import React from 'react';
 import GuidelineSection from './guideline-section';
 import Image, { StaticImageData } from 'next/image';
 
 type GuidelineCardProps = {
   title: string;
-  subtitle: string;
-  description: string;
-  imgSrc: StaticImageData;
+  numbertext: number;
+  description?: string;
+  imgSrc: StaticImageData | string;
   alt: string;
 };
 
 export default function GuidelineCard({
   title,
-  subtitle,
+  numbertext,
   description,
   imgSrc,
   alt,
 }: GuidelineCardProps) {
   return (
     <>
-      <Card className="relative rounded-[50px]">
-        <div className="">
-          <Image src={imgSrc} alt={alt} />
+      <Card className="relative rounded-[30px]  transition-all duration-200 hover:scale-110 my-5 mx-4 h-full ">
+        <div className="relative">
+          <Image
+            src={imgSrc}
+            alt={alt}
+            className="object-cover rounded-[20px] w-full h-full"
+          />
         </div>
-        <CardTitle className="absolute w-full bottom-7  overflow-hidden left-4 text-white">
-          <h1 className="text-[90px] ">{title}</h1>
+        <CardContent className="absolute bottom-0 overflow-hidden hover:-translate-y-6 transition-all   text-white left-0 w-full">
+          <CardTitle className="text-[90px] text-stroke-text">
+            {numbertext}
+          </CardTitle>
           <div>
-            <h2 className="text-[42px]">{subtitle}</h2>
+            <CardTitle className="text-3xl">{title}</CardTitle>
             <div className="border-b-[3px]   border-[#008ebe] w-[90px] my-2"></div>
           </div>
-          <CardDescription
-            className="text-white
-          "
-          >
+          <CardDescription className="text-white line-clamp-2 sm:line-clamp-6 lg:line-clamp-none px-1">
             {description}
           </CardDescription>
-        </CardTitle>
+        </CardContent>
       </Card>
     </>
   );

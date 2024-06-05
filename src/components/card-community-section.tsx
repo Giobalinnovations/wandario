@@ -1,51 +1,52 @@
-import { cardCommunitybg, cardCommunityImg } from '@/lib/images';
-import { Card } from '@/components/ui/card';
-import Image from 'next/image';
-import CardCommunity from './card-community';
+'use client';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/autoplay';
 
 export default function CardCommunitySection() {
   return (
     <>
-      <Card className="relative rounded-[50px] ">
+      {/* <div className=" relative rounded-[50px] ">
+        <div className="">
+          <Image src={cardCommunitybg} alt="" className="object-cover -z-30" />
+        </div>
         <div className="absolute top-6 mx-auto flex flex-col items-center w-full text-white">
           <h2 className="font-bold text-3xl">Travel Tips From Community</h2>
           <div className="border-b-[3px]  border-[#008ebe] w-[90px] my-2"></div>
         </div>
-        <Image src={cardCommunitybg} alt="" />
 
-        <section className="flex gap-3 absolute bottom-[14%] mx-2.5">
-          <CardCommunity
-            title="Tip No. 1"
-            imgSrc={cardCommunityImg}
-            alt="Tip No. 1"
-            description="Lorem Ipsum is simply dummy text of the
-printing and typesetting industry. Lorem
-Ipsum has been the industry's standard
-dummy text ever since the 1500s, when an
-unknown printer took a galley "
-          />
-          <CardCommunity
-            title="Tip No. 1"
-            imgSrc={cardCommunityImg}
-            alt="Tip No. 1"
-            description="Lorem Ipsum is simply dummy text of the
-printing and typesetting industry. Lorem
-Ipsum has been the industry's standard
-dummy text ever since the 1500s, when an
-unknown printer took a galley "
-          />
-          <CardCommunity
-            title="Tip No. 1"
-            imgSrc={cardCommunityImg}
-            alt="Tip No. 1"
-            description="Lorem Ipsum is simply dummy text of the
-printing and typesetting industry. Lorem
-Ipsum has been the industry's standard
-dummy text ever since the 1500s, when an
-unknown printer took a galley "
-          />
+        <section className="absolute  z-10 flex top-2/4  translate-y-1/2  justify-center gap-3 mx-2.5">
+          {Communities.map((community, index) => (
+            <CardCommunity key={index} {...community} />
+          ))}
+          <Swiper
+            modules={[Navigation, Autoplay]}
+            navigation
+            autoplay
+            spaceBetween={10}
+            slidesPerView={4}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={swiper => console.log(swiper)}
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+              },
+              580: {
+                slidesPerView: 2,
+              },
+
+              1000: {
+                slidesPerView: 3,
+              },
+              1024: {
+                slidesPerView: 4,
+              },
+            }}
+          >
+            <SwiperSlide></SwiperSlide>
+          </Swiper>
         </section>
-      </Card>
+      </div> */}
     </>
   );
 }

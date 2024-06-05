@@ -18,6 +18,21 @@ export default function LocalCuisnesSection() {
           slidesPerView={3}
           onSlideChange={() => console.log('slide change')}
           onSwiper={swiper => console.log(swiper)}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            580: {
+              slidesPerView: 2,
+            },
+
+            1000: {
+              slidesPerView: 3,
+            },
+            1024: {
+              slidesPerView: 4,
+            },
+          }}
         >
           <div>
             <SwiperSlide>

@@ -8,8 +8,9 @@ export default function AboutContinents() {
       <div>
         <AboutTitle
           title="About Us"
-          paragraph1={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`}
-          paragraph2={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s`}
+          paragraph={`At Travel Reviews Guide, we recognise the value of exploring the world. It’s not just about going to some place, it is about living and experiencing it. As the saying goes, “To travel is to live,” and we hope to make your trip more memorable in every way possible.
+          `}
+          paragraphTwo={`At Travel Reviews Guide, we recognise the value of exploring the world. It’s not just about going to some place, it is about living and experiencing it. As the saying goes, “To travel is to live,” and we hope to make your trip more memorable in every way possible.`}
           imgSrc={aboutImg1}
           imgSrc2={aboutImg2}
           alt=""

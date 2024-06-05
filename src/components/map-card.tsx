@@ -18,7 +18,7 @@ type MapCardProps = {
 export default function MapCard({ imgSrc, title, alt }: MapCardProps) {
   return (
     <>
-      <div>
+      <div className="transition duration-300 hover:scale-110">
         <Card className="py-2 px-2 flex justify-center items-center w-[160px] h-[160px]">
           <Image src={imgSrc} alt={alt} className="object-cover" />
         </Card>
