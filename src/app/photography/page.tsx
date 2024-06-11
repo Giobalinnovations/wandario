@@ -3,6 +3,7 @@ import KnowBeforeSection from '../destinations/north-america/know-before-section
 import Section from '@/components/ui/section';
 import CardStayingHotel from '@/components/ui/card-staying-hotel';
 import BlogSection from '@/components/ui/blog-section';
+import CardResortSection from '@/components/card-resort-section';
 
 export default function PhotographyHome() {
   return (
@@ -15,6 +16,11 @@ export default function PhotographyHome() {
       <Section>
         <Wrapper>
           <CardStayingHotel />
+        </Wrapper>
+      </Section>
+      <Section>
+        <Wrapper>
+          <CardResortSection />
         </Wrapper>
       </Section>
       <Section>
