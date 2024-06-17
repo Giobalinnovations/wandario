@@ -488,3 +488,45 @@ dummy text ever since the 1500s, when an
 unknown printer took a galley`,
   },
 ];
+
+export const frequentlyData = [
+  {
+    title: 'How safe is it for a female to travel solo?',
+    content: `Different people have different ideas about how risky it is to travel alone. Safe travel requires preparation, respect for local customs, appropriate attire, and caution with possessions. Stay aware and trust your instincts no matter where you’re going.`,
+  },
+  {
+    title: 'What should be my preparations before travel?',
+    content: `Download entertainment (movies, books, podcasts).
+Charge all devices.
+Research your destination.
+Inform the bank &amp; embassy of travel plans.
+Clean your living space.
+Share travel details with a trusted contact.
+Pack snacks.
+Verify prescriptions.
+Confirm boarding passes &amp; itinerary.
+Secure passport.
+Print essential travel documents.
+Backup vital ID documents (e.g., passport).
+Understand travel insurance coverage.
+Ensure travel insurance is purchased.`,
+  },
+
+  {
+    title: 'How do I get a good deal on my flight tickets?',
+    content:
+      'Plan ahead of time when and how you will purchase your flights to get the best deal possible. Google Flights and other similar sites can help you identify lower travel schedules because costs change based on demand. Check costs for other times or airports, consider routes with layovers, and follow airline promotions on social media. Following these suggestions will assist you in finding low-cost flights.',
+  },
+  {
+    title:
+      'What are the most important elements for newbies to consider when choosing a lens for trip photography?',
+    content:
+      'The type of shot you wish to take, such as a landscape, portrait, or close-up, influences your lens selection. The aperture (for example, f/2.8) and focal length (for example, 35mm) are two important lens characteristics. Most tourists choose a wide lens for landscapes, a versatile zoom for everyday photos, and a prime lens for portraits. For novices, getting started in photography can be challenging, but tools with specific tips can make it easier and help you choose the right gear.',
+  },
+  {
+    title:
+      'What are some suggestions for coping with differences in language when travelling internationally?',
+    content:
+      'It can be difficult yet fun to travel when you don&#39;t speak the language well. Learn some words before you go. In places with slow internet, Google Translate and a compact phrasebook can come in handy. Be aware of regional differences when you use gestures and body language to communicate. Think about hiring local guides to get more out of your trip and meet new people. Always be thankful and patient, and know that real conversation often goes beyond words.',
+  },
+];
